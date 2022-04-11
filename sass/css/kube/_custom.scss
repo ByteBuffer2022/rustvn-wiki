@@ -1,0 +1,60 @@
+#kube-features .gutters .item {
+  .ti-icon {
+    font-size: 3em;
+    color: #FFC90A;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+#components .doc-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  h4 a {
+    font-size: 1.2em;
+  }
+
+  p a {
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+  }
+  h5 {
+    padding-bottom: 0em;
+
+    a {
+      font-size: 0.9em;
+      font-weight: normal;
+      text-decoration: none;
+      color: #666;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #content, #kube-faq, #kube-about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.docs-badge {
+  display: flex;
+
+  .badge-left {
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .badge-right {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+}

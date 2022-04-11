@@ -1,0 +1,84 @@
+{% extends "base.html"%}
+
+
+
+{% block content %}
+	<div id="main">
+		<div id="hero">
+			<h1>{{ section.title }}</h1>
+			<p>{{ section.description }}</p>
+		</div>
+		<div id="action-buttons">
+			<a class="button primary big" href="{{ section.extra.button.primary_url | default(value=get_url(path=section.extra.button.primary_path | default(value="/") | safe) | safe) | safe }}">{{ section.extra.button.primary }}</a>
+			<a class="button outline big" href="{{ section.extra.button.outline_url | default(value=get_url(path=section.extra.button.outline_path | default(value="/") | safe) | safe) | safe }}">{{ section.extra.button.outline }}</a>
+			<p>{{ section.extra.button.content | safe }}</p>
+		</div>
+		<div class="message focus" data-component="message"> <span class="close small"></span>
+			<a class="button inverted small " href="https://rustwiki.org">Rust 文档网</a> 由 <a
+				href="https://github.com/rust-lang-cn">Rust 中文翻译项目组</a> 创建，全网独家支持 Rust 教程文档 <mark>中英双语切换</mark> 功能，提供学习 Rust 语言的最好方式，正式开启 Rust 学习之旅吧！
+		</div>
+		<div id="kube-features">
+			{% if section.extra.items %}
+				{% for item in section.extra.items %}
+					{% if loop.index0 % 3 == 0 -%}
+						<div class="row gutters">
+					{%- endif %}
+					<div class="col col-4 item">
+					<figure>
+						<span class="{{ item.icon | default(value="ti-close") }} ti-icon"></span>
+					</figure>
+					<a href="{{ item.url | default(value=item.path | default(value=" /") | safe) | safe }}">
+						<h3>{{ item.title }}</h3>
+						<p>
+              {%- if item.translate_done -%}
+						    {% include "svg/chinese-100-percent.html" %}
+						    {% include "svg/localized-100-percent.html" %}
+              {% elif item.is_wiki -%}
+                {% include "svg/docs-wiki.html" %}
+              {% elif item.is_doing -%}
+                {% include "svg/doing-translation.html" %}
+						  {%- endif -%}
+            </p>
+						<p>{{ item.content | safe }}</p>
+					</a>
+					</div>
+					{% if loop.index0 % 3 == 2 or loop.last -%}
+						</div>
+					{% endif -%}
+				{% endfor %}
+			{% endif -%}
+
+			{% if section.extra.other_items %}
+				{% for item in section.extra.other_items %}
+					{% if loop.index0 % 3 == 0 -%}
+						<div class="row gutters">
+					{%- endif %}
+					<div class="col col-4 item">
+						{% if item.icon %}					
+						  <figure>
+							<span class="{{ item.icon | default(value="ti-close") }} ti-icon"></span>
+						  </figure>
+						{% endif %}
+						<a href="{{ item.url | default(value=item.path | default(value=" /") | safe) | safe }}">
+							<h4>{{ item.title }}</h4>
+						  <p>
+                {%- if item.translate_done -%}
+                  {% include "svg/chinese-100-percent.html" %}
+                  {% include "svg/localized-100-percent.html" %}
+                {% elif item.is_wiki -%}
+                  {% include "svg/docs-wiki.html" %}
+                {% elif item.is_doing -%}
+                  {% include "svg/doing-translation.html" %}
+                {%- endif -%}
+              </p>
+							<p>{{ item.content | safe}}</p>
+						</a>						
+					</div>
+					{% if loop.index0 % 3 == 2 or loop.last -%}
+						</div>
+					{% endif -%}
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+{% endblock content %}

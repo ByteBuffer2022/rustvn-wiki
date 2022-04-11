@@ -1,0 +1,109 @@
+{%- import 'macros.html' as macros -%}
+
+{%- block base -%}
+<!DOCTYPE html>
+<html lang="{% block language %}{{ config.extra.language_code | default(value=" en-US") }}{% endblock language %}">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{% block seo %}
+    {% include "partials/seo.html" %}
+  {% endblock seo %}
+
+	<link rel="icon" href="{{ get_url(path="img/favicon.ico") | safe }}">
+	<link href="{{ get_url(path="css/main.css") | safe }}" rel="stylesheet" type="text/css">
+	{% if config.generate_feed %}
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path=config.feed_filename | default(value="atom.xml")) | safe }}" title="{{ config.title | default(value="Rust Wiki") }}" />
+  {% endif %}
+  
+  {% if config.base_url == "https://rustwiki.org.cn" -%}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFFPZ2X5CB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HFFPZ2X5CB');
+    </script>
+
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "b8ld2k82n3");
+    </script>
+  {%- endif %}
+</head>
+<body class="page-kube">
+{% block header -%}
+	<header>
+		<div class="show-sm">
+			<div id="nav-toggle-box">
+				<div id="nav-toggle-brand">
+					<a href="{{ config.base_url | safe }}">{{ config.title | default(value="Rust Wiki")}}</a>
+				</div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+			</div>
+		</div>
+		<div class="hide-sm" id="top">
+			<div id="top-brand">
+				<a href="{{ config.base_url | safe }}" title="home">{{ config.title | default(value="Rust Wiki")}}</a>
+			</div>
+			<nav id="top-nav-main">
+				{% if config.extra.menu -%}
+					<ul>
+						{% for menu in config.extra.menu %}
+							<li><a href="{{ menu.url | default(value=get_url(path=menu.path | default(value="/") | safe) | safe) | safe }}">{{ menu.name }}</a></li>
+						{% endfor %}
+            {% if config.base_url == "https://rustwiki.org" %}
+              <li><a href="https://rustwiki.org.cn">国内站点</a></li>
+            {% else %}
+              <li><a href="https://rustwiki.org">全球站点</a></li>
+            {% endif %}
+					</ul>
+				{%- endif %}
+			</nav>
+			<nav id="top-nav-extra">
+				<ul>
+				</ul>
+			</nav>
+		</div>
+	</header>
+{% endblock header -%}
+
+<main>
+{% block content %}{% endblock content %}
+</main>
+
+{% block footer %}
+	<footer>
+		<footer id="footer">
+			<nav>
+				
+				<ul>
+					<li><span>Rust Wiki</span></li>
+					{% if config.extra.footer -%}
+						{% for footer in config.extra.footer -%}
+							<li><a href="{{ footer.url | default(value=get_url(path=footer.path | default(value="/") | safe) | safe) | safe }}">{{ footer.name }}</a></li>
+						{%- endfor %}
+					{%- endif %}
+				</ul>
+			</nav>
+			<p class="copyright">
+        {{ config.extra.copy | default(value="&copy; 2016-2021 rust-lang-cn") | safe }}
+        {% if config.base_url == "https://rustwiki.org.cn" %}
+          <a href="https://beian.miit.gov.cn" target="_blank">沪 ICP 备 15051443 号-5</a>
+        {% endif %}
+      </p>
+		</footer>
+	</footer>
+{% endblock footer %}
+
+	<script src="{{ get_url(path="js/jquery.min.js") | safe}}" type="text/javascript"></script>
+	<script src="{{ get_url(path="js/kube.min.js") | safe }}" type="text/javascript"></script>
+	</script>
+</body>
+</html>
+{% endblock base %}
