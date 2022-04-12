@@ -1,13 +1,12 @@
 +++
-title = "Rust 相关的中文网站"
+title = "Các trang web Việt Nam liên quan đến Rust"
 weight = 5
 template = "wiki/page.html"
 
 aliases = ["zh-CN/rust-wiki/rust-resources/Chinese-websites-of-rust.html"]
 +++
 
-以下列出目前搜集到的 Rust 中文网站：
+Sau đây liệt kê các trang web Rust của VN được thu thập cho đến nay:
+- Rust vn website：<https://rustvn.com/>
 
-- Rust 语言中文社区：<https://rust.cc/>
-
-> 👉 若发现还有更多 Rust 相关的网站，请直接在[本仓库](https://github.com/ByteBuffer2022/rustwiki.org)上提出 *Issues* 或 *Pull requests*。
+> 👉 Nếu bạn tìm thấy thêm các trang web liên quan đến Rust, vui lòng truy cập trực tiếp vào [repository](https://github.com/ByteBuffer2022)raised on *Issues* or *Pull requests*。

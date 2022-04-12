@@ -1,11 +1,11 @@
 +++
-title = "Rust 中文项目组目标和计划"
+title = "Mục tiêu và kế hoạch của nhóm dự án Rust Việt Nam"
 weight = 10
 template = "wiki/page.html"
 
 aliases = ["zh-CN/rust-wiki/notice/rust-lang-cn-plan.html"]
 +++
 
-我们的总体目标是构建一个完整且完善的 Rust 中文知识库，为此我们会翻译所有必要的 Rust 官方资源以及部分非官方的 Rust 资源，这也是我们的总的计划，但并未给出时间表。为了达成这个目标，我们会一步步翻译相关的作品，目前我们已经翻译了部分重要的作品，未来还需要进一步翻译。
+Mục tiêu chung của chúng tôi là xây dựng một nền tảng kiến thức tiếng Việt Rust đầy đủ và hoàn chỉnh. Vì mục đích này, chúng tôi sẽ dịch tất cả các nguồn chính thức cần thiết của Rust và một số tài nguyên Rust không chính thức. Đây cũng là kế hoạch chung của chúng tôi, nhưng chưa đưa ra thời gian biểu. Để đạt được mục tiêu này, chúng tôi sẽ từng bước dịch các tác phẩm liên quan, hiện tại chúng tôi đã dịch một số tác phẩm quan trọng, trong thời gian tới chúng tôi sẽ phải dịch thêm.
 
-对于具体的翻译作品而言，我们会给出特定的计划和说明，在相关的作品说明页会有说明。
+Đối với các công việc dịch thuật cụ thể, chúng tôi sẽ đưa ra kế hoạch và hướng dẫn cụ thể, sẽ được giải thích trên các trang mô tả công việc liên quan.

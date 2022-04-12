@@ -1,5 +1,5 @@
 +++
-title = "Rust 相关"
+title = "Rust related"
 weight = 40
 sort_by = "weight"
 template = "wiki/section.html"
@@ -7,4 +7,4 @@ template = "wiki/section.html"
 aliases = ["zh-CN/rust-wiki/rust-related/"]
 +++
 
-本章的资料是跟 Rust 有关，但非 Rust 语言本身的资料内容，比如 Rust 项目中配置文件所用到的 TOML 语言。
+Tài liệu trong chương này liên quan đến Rust, nhưng không liên quan đến nội dung tài liệu của chính ngôn ngữ Rust, chẳng hạn như ngôn ngữ TOML được sử dụng trong tệp cấu hình trong dự án Rust.

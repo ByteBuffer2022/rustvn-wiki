@@ -1,6 +1,6 @@
 +++
-title = "Rust 官方文档中文翻译"
-description = "Rust 官方文档中文资源导航页面，包括 Rust 官方或非官方文档的中文翻译，以及 Nhóm dự án dịch Rust tiếng Việt制定的 Rust 翻译规范及标准，给 Rust 初学者带来友好便捷的学习指引。"
+title = "Tài liệu chính thức Rust "
+description = "Tài liệu chính thức của Rust Trang điều hướng tài nguyên của Việt Nam, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust, cũng như các thông số kỹ thuật và tiêu chuẩn dịch của Rust do Nhóm dự án dịch Rust tiếng Việt xây dựng, mang đến những hướng dẫn học tập thân thiện và thuận tiện cho người mới bắt đầu học Rust."
 template = "i18/zh-cn.html"
 
 

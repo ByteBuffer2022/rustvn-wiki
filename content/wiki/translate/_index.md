@@ -1,5 +1,5 @@
 +++
-title = "Rust 翻译规范"
+title = "Đặc tả bản dịch Rust "
 weight = 20
 sort_by = "weight"
 template = "wiki/section.html"
@@ -7,4 +7,4 @@ template = "wiki/section.html"
 aliases = ["zh-CN/rust-wiki/translate/"]
 +++
 
-本章将给出 Rust 的翻译的规范，在这里将详细介绍了 Rust 文档翻译的步骤流程、规范建议以及 Rust 语言的中英文术语表等。
+Chương này sẽ đưa ra các đặc điểm kỹ thuật của bản dịch Rust, sau đây chúng tôi sẽ giới thiệu chi tiết các bước và quy trình dịch tài liệu Rust, các gợi ý về đặc điểm kỹ thuật và bảng chú giải thuật ngữ tiếng Trung và tiếng Anh của ngôn ngữ Rust.

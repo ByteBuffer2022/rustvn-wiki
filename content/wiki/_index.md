@@ -1,18 +1,19 @@
 +++
-title = "Rust 规范文档"
-description = "Rust 规范文档包涵了一系列 Rust 编程语言有关的资料，包括翻译的指引、Rust 术语表以及 Rust 配套的其他资料（比如 TOML 语言介绍）。"
+title = "Rust specification document"
+description = "Tài liệu đặc tả Rust chứa nhiều tài liệu liên quan đến ngôn ngữ lập trình Rust, bao gồm hướng dẫn về bản dịch, bảng thuật ngữ Rust và các tài liệu khác đi kèm với Rust (chẳng hạn như giới thiệu về ngôn ngữ TOML)."
 template = "wiki/section.html"
 
 aliases = ["zh-CN/rust-wiki/"]
 +++
+Nhóm dự án dịch Rust tiếng Việt duy trì các nguồn tài liệu như các bài hướng dẫn tiếng Trung liên quan đến ngôn ngữ Rust, đồng thời xây dựng các thông số kỹ thuật có liên quan. Nhóm dịch Rust của chúng tôi đã thiết lập [tổ chức GitHub] [github], tạo [Tài liệu Rust] [rustwiki] và thành lập nhóm facebook trao đổi kiến thức [group Facebook] [group] .
 
-Nhóm dự án dịch Rust tiếng Việt在维护 Rust 语言相关的中文教程等文档资源，也制定了相关的规范内容。我们的 Rust 翻译小组成立了 [GitHub 组织][github]，创建了 [Rust Document][rustwiki]，并成立了翻译小组 QQ 交流群（716348056，注意进群需提供 GitHub 用户名）。
+Wiki Tài liệu này là cơ sở kiến thức để tự học ngôn ngữ Rust hoặc các tài liệu khác liên quan đến Rust, bao gồm hướng dẫn dịch ngôn ngữ Rust, bảng so sánh thuật ngữ tiếng Việt và tiếng Anh của Rust, và ngôn ngữ cấu hình TOML. Nội dung sẽ liên tục được cập nhật và mở rộng.
 
-本 Tài liệu Wiki是学习 Rust 语言本身或者与 Rust 有关的其他资料的知识库，包括了 Rust 语言的翻译指引、Rust 术语中英文对照表，以及 TOML 配置语言。内容将会不断更新拓展。
+Tài liệu đặc tả Rust chứa một loạt các tài liệu liên quan đến Rust, bao gồm hướng dẫn về bản dịch, bảng chú giải thuật ngữ Rust và các tài liệu khác đi kèm với Rust (chẳng hạn như giới thiệu về ngôn ngữ TOML).
 
-Rust 规范文档包涵了一系列 Rust 有关的资料，包括翻译的指引、Rust 术语表以及 Rust 配套的其他资料（比如 TOML 语言介绍）。
-
-不忘初心，坚持更新。六年来 Nhóm dự án dịch Rust tiếng Việt始终紧跟 Rust 官方不断维护中文文档，并不断拓展和完善相关内容，未来我将一如既往地坚持下去，努力为 Rust 资料完善不断更新迭代。
+Đừng quên ý định ban đầu và nhấn mạnh vào việc cập nhật. Trong sáu năm qua, Nhóm dự án dịch Rust tiếng Việt đã cập nhật tài liệu chính thức của Rust và liên tục duy trì tài liệu tiếng Trung, đồng thời không ngừng mở rộng và cải tiến các nội dung liên quan. Trong tương lai, tôi sẽ tiếp tục kiên trì như mọi khi và cố gắng liên tục cập nhật và lặp lại để cải thiện vật liệu Rust.
 
 [github]: https://github.com/ByteBuffer2022/rust-book-vn
-[rustwiki]: https://rustwiki.org
+[rustwiki]: https://rustvn.com
+[group]: https://www.facebook.com/groups/546307380433651
+
