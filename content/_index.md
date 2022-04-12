@@ -1,26 +1,26 @@
 +++
-title = "Rust 官方文档中文教程"
-description = "Rust 官方文档翻译项目组提供了全面的学习 Rust 语言的官方文档和其他教程的中文知识库，从入门到深入学习 Rust 编程语言的各类资源，由 Rust 翻译项目组和其他参与 Rust 开源项目的爱好者共同提供。"
+title = "Rust Official Document Vietnamese tutorial"
+description = "The Rust Official Documentation Translation Project Team provides a comprehensive Vietnamese knowledge base for learning Rust language official documentation and other tutorials, from introductory to in-depth learning of the Rust programming language. Various resources are provided by the Rust Translation Project Team and other hobbies who participate in Rust open source projects. provided jointly."
 
 
 [extra]
 
 [extra.button]
-primary = "Rust 程序设计语言"
+primary = "Rust programming language"
 # primary_url = "https://rustwiki.org/zh-CN/book"
 primary_path = "zh-CN/book"
 
-outline = "通过例子学 Rust"
+outline = "Learn by example Rust"
 # outline_url = "https://rustwiki.org/zh-CN/rust-by-example"
 outline_path = "zh-CN/rust-by-example"
 
-content = "👉 Rust 官方的两个必备学习教程"
+content = "👉 Rust The official two essential learning tutorials"
 
 # icon 来源：https://themify.me/themify-icons
 
 [[extra.items]]
-title = "Rust 程序设计语言"
-content = 'Rust 官方编著的 Rust 基本教程，也称 Rust Book，中文出版书名译作<b style="color:#ff4e00;">《Rust 权威指南》。</b>'
+title = "Rust programming language"
+content = 'Rust Officially edited Rust Basic Tutorial，也称 Rust Book，中文出版书名译作<b style="color:#ff4e00;">《Rust 权威指南》。</b>'
 # url = "https://rustwiki.org/zh-CN/book"
 path = "zh-CN/book"
 icon = "ti-medall"

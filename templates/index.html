@@ -1,7 +1,5 @@
 {% extends "base.html"%}
 
-
-
 {% block content %}
 	<div id="main">
 		<div id="hero">
@@ -54,7 +52,7 @@
 						<div class="row gutters">
 					{%- endif %}
 					<div class="col col-4 item">
-						{% if item.icon %}					
+						{% if item.icon %}
 						  <figure>
 							<span class="{{ item.icon | default(value="ti-close") }} ti-icon"></span>
 						  </figure>
@@ -72,7 +70,7 @@
                 {%- endif -%}
               </p>
 							<p>{{ item.content | safe}}</p>
-						</a>						
+						</a>
 					</div>
 					{% if loop.index0 % 3 == 2 or loop.last -%}
 						</div>
