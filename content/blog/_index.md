@@ -1,9 +1,9 @@
 +++
-title = "Rust 的博客"
-description = "关于 Rust 的发展动向，Rust 的技术文章分享，Rust 的深入学习交流等博文。"
+title = "Rust Blog"
+description = "Về xu hướng phát triển của Rust, chia sẻ các bài viết về kỹ thuật của Rust, các bài blog trên các trang trao đổi học hỏi chuyên sâu của Rust."
 template = "blog/section.html"
 sort_by = "date"
 paginate_by = 3
 +++
 
-Rust 语言的发展动向，Rust 中文相关资讯，以及 Rust 的各种学习交流和分享。<br> <a href="https://github.com/rust-lang-cn">加入 Rust 中文翻译项目组</a>
+Xu hướng phát triển của ngôn ngữ Rust, các thông tin liên quan đến ngôn ngữ Rust bằng Tiếng Việt, và các hoạt động giao lưu, chia sẻ học tập về Rust.<br> <a href="https://github.com/ByteBuffer2022/rust-book-vn">Tham gia dự án Rust Tiếng Việt </a>

@@ -2,8 +2,8 @@
 base_url = "https://rustwiki.org"
 
 # The basic information
-title = "Rust 文档网"
-description = "Rust 文档网是 Rust 官方文档中文翻译项目组创建的 Rust 语言文档在线知识库，涵盖了最全面的 Rust 语言的中文学习内容和编程入门资料，包括 Rust 官方或非官方文档的中文翻译，以及 Rust 中文翻译项目组制定的 Rust 翻译规范及标准。"
+title = "Rust document"
+description = "Tài liệu Rust là một cơ sở kiến thức trực tuyến về tài liệu ngôn ngữ Rust do nhóm dự án dịch tiếng Việt tài liệu chính thức của Rust tạo ra. Mạng này bao gồm nội dung học tiếng Việt toàn diện nhất về ngôn ngữ Việt Quốc và tài liệu giới thiệu về lập trình, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust và Rust Thông số kỹ thuật và tiêu chuẩn dịch tiếng Việt Rust do nhóm dự án dịch thuật phát triển. "
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -28,10 +28,10 @@ highlight_theme = "base16-ocean-light"
 
 [extra]
 # Put all your custom variables here
-author = "rust-lang-cn"
+author = "rust-lang-vn"
 
-language_code = "zh-CN"
-copy = "&copy; 2016-2022 rust-lang-cn"
+language_code = "vi-VN"
+copy = "&copy; 2016-2022 rust-lang-vn"
 
 
 
@@ -39,7 +39,7 @@ copy = "&copy; 2016-2022 rust-lang-cn"
 
 # Header menus
 [[extra.menu]]
-name = "文档教程"
+name = "Tài liệu hướng dẫn"
 path = "/docs/"
 
 [[extra.menu]]
@@ -47,7 +47,7 @@ name = "Wiki"
 path = "/wiki/"
 
 [[extra.menu]]
-name = "博客"
+name = "Blog"
 path = "/blog/"
 
 [[extra.menu]]
@@ -55,25 +55,25 @@ name = "Smart contract"
 path = "/smartcontract/"
 
 [[extra.menu]]
-name = "Rust 编程交流"
-url = "https://github.com/rust-lang-cn/rustwiki.org/discussions"
+name = "Rust programming exchange"
+url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
 
 [[extra.menu]]
 name = "GitHub"
-url = "https://github.com/rust-lang-cn"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.menu]]
-name = "常见问题"
+name = "FAQ"
 path = "/faq/"
 
 [[extra.menu]]
-name = "关于我们"
+name = "About us"
 path = "/about/"
 
 
 # Footer
 [[extra.footer]]
-name = "教程"
+name = "Tutorial"
 path = "/docs/"
 
 [[extra.footer]]
@@ -81,32 +81,32 @@ name = "Wiki"
 path = "/wiki/"
 
 [[extra.footer]]
-name = "官方文档"
-path = "/zh-CN/"
+name = "Official documentation"
+path = "/vi-VN/"
 
 [[extra.footer]]
-name = "常见问题"
+name = "FAQ"
 path = "/faq/"
 
 [[extra.footer]]
-name = "关于我们"
+name = "About us"
 path = "/about/"
 
 [[extra.footer]]
-name = "Rust 官网"
-url = "https://www.rust-lang.org/zh-CN"
+name = "Rust Official website"
+url = "https://www.rust-lang.org/vi-VN"
 
 [[extra.footer]]
-name = "Rust 交流"
-url = "https://github.com/rust-lang-cn/rustwiki.org/discussions"
+name = "Rust comminicate"
+url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
 
 [[extra.footer]]
 name = "GitHub"
-url = "https://github.com/rust-lang-cn"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.footer]]
-name = "English"
-path = "/en/"
+name = "Tiếng Việt"
+path = "/vi/"
 
 
 
@@ -119,7 +119,7 @@ description = "The wiki documentation of the Rust programming language."
 # Header menus
 [[extra.en.menu]]
 name = "GitHub"
-url = "https://github.com/rust-lang-cn"
+url = "https://github.com/ByteBuffer2022"
 
 
 # Footer
@@ -129,8 +129,8 @@ url = "https://www.rust-lang.org"
 
 [[extra.en.footer]]
 name = "GitHub"
-url = "https://github.com/rust-lang-cn"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.en.footer]]
-name = "简体中文"
+name = "Tiếng Việt"
 path = "/"

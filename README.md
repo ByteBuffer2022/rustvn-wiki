@@ -1,12 +1,12 @@
 # rustwiki.org
 
-![Build Status](https://github.com/rust-lang-cn/rustwiki.org/workflows/CI/badge.svg)
+![Build Status](https://github.com/ByteBuffer2022/rustwiki.org/workflows/CI/badge.svg)
 [![LICENSE-MIT](https://img.shields.io/badge/license-MIT-green)](https://raw.githubusercontent.com/rust-lang-cn/rust-by-example-cn/master/LICENSE-MIT)
 [![LICENSE-APACHE](https://img.shields.io/badge/license-Apache%202-blue)](https://raw.githubusercontent.com/rust-lang-cn/rust-by-example-cn/master/LICENSE-APACHE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rust-lang-cn/rustwiki.org?color=gold)
 ![rustwiki.org](https://img.shields.io/website?up_message=rustwiki.org&url=https%3A%2F%2Frustwiki.org)
 
-This is the source code of the [rustwiki.org](https://rustwiki.org) and [rustwiki.org.cn](https://rustwiki.org.cn) websites.
+This is the source code of the [rustwiki.org](https://rustwiki.org) and [rustvn.com](https://rustvn.com) websites.
 
 ## Running and Building
 
@@ -15,7 +15,7 @@ First, You need to install the [Zola](https://www.getzola.org/documentation/gett
 To run the site locally:
 
 ```bash
-$ git clone https://github.com/rust-lang-cn/rustwiki.org.git
+$ git clone https://github.com/ByteBuffer2022/rustwiki.org.git
 $ cd rustwiki.org
 $ zola serve
 ```

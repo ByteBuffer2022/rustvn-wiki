@@ -6,4 +6,4 @@ sort_by = "date"
 paginate_by = 3
 +++
 
-Rust 语言的发展动向，Rust 中文相关资讯，以及 Rust 的各种学习交流和分享。<br> <a href="https://github.com/rust-lang-cn">加入 Rust 中文翻译项目组</a>
+Rust 语言的发展动向，Rust 中文相关资讯，以及 Rust 的各种学习交流和分享。<br> <a href="https://github.com/ByteBuffer2022">加入 Nhóm dự án dịch Rust tiếng Việt</a>

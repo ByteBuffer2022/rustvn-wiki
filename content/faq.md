@@ -11,42 +11,42 @@ id = "kube-faq"
 
 Rust Wiki 的中文教程等相关资源主要来源于两方面：
 
-1. Rust 文档网（Rust Wiki）组织的译作，即 Rust 中文翻译项目组（[*rust-lang-cn*][rust-lang-cn]）完成的翻译作品，比如[《通过例子学 Rust》][rbe]和[《Rust 版本指南》][edition-guide]；
-2. 源自组织外的 Rust 翻译作品，比如[《Rust 参考手册》][reference]。
+1. Rust Document（Rust Wiki）组织的译作，即 Nhóm dự án dịch Rust tiếng Việt（[*rust-lang-cn*][rust-lang-cn]）完成的翻译作品，比如[《通过例子学 Rust》][rbe]和[《Rust 版本指南》][edition-guide]；
+2. 源自组织外的 Rust 翻译作品，比如[《Tài liệu tham khảo Rust》][reference]。
 
 我们遵循 “DRY”（Don't Repeat Yourself）原则，以减少不必要的重复劳动。一般来说，组织都会计划翻译 Rust 官方的作品，若是发现已经有别处给出了译作，我们将采用可取的作品，比如第二版的[《Rust 程序设计语言》][book]本组织也翻译了前几个章节，后面发现有更完整的翻译成品，所以本组织整合已有的资源而不再重新翻译，我们欢迎所有的 Rust 中文翻译作者加入翻译项目组。
 
-对于 Rust 官方相关的文档，Rust 中文翻译项目组会不断收集和更新网上已有的开源的翻译文档，并将相关资源聚集到 Rust 中文翻译项目组的 GitHub 仓库上，且遵循原作者和译者的相关协议。我们的目标是将所有的公开的 Rust 官方开源作品都无限制（比如 CC0 协议）或少数限制（比如 MIT、GPL 等协议）分享给全世界所有人。所有人都可以在遵循开源协议的条件下，获得所有这些开源资源，包括本网站的一切资源内容，甚至我们不反对将这些开源的资源全部复刻到自己的网站上，因为我们本来的目的就是让 Rust 的中文资源能更广泛地传播。
+对于 Rust 官方相关的文档，Nhóm dự án dịch Rust tiếng Việt会不断收集和更新网上已有的开源的翻译文档，并将相关资源聚集到 Nhóm dự án dịch Rust tiếng Việt的 GitHub 仓库上，且遵循原作者和译者的相关协议。我们的目标是将所有的公开的 Rust 官方开源作品都无限制（比如 CC0 协议）或少数限制（比如 MIT、GPL 等协议）分享给全世界所有人。所有人都可以在遵循开源协议的条件下，获得所有这些开源资源，包括本网站的一切资源内容，甚至我们不反对将这些开源的资源全部复刻到自己的网站上，因为我们本来的目的就是让 Rust 的中文资源能更广泛地传播。
 
 当然，为了让相关的资源良性发展和不断改进，我们鼓励大家将改进的内容反馈到原作者，当然也欢迎反馈到 [*rust-lang-cn*][rust-lang-cn] 的有关资源内容，[*rust-lang-cn*][rust-lang-cn] 组织也对所有人开放。
 
-⚡️ 注意：Rust 中文翻译项目组的作品一般采用 MIT 或 Apache 2.0 协议，除非特定教程使用了其他不兼容的许可协议（如 GPL 和 CC BY-SA-4.0 等协议）。另外对于以指定禁止转载或闭源形式公开的作品，我们项目组不会采用。
+⚡️ 注意：Nhóm dự án dịch Rust tiếng Việt的作品一般采用 MIT 或 Apache 2.0 协议，除非特定教程使用了其他不兼容的许可协议（如 GPL 和 CC BY-SA-4.0 等协议）。另外对于以指定禁止转载或闭源形式公开的作品，我们项目组不会采用。
 
 [rbe]: https://rustwiki.org/zh-CN/rust-by-example
 [edition-guide]: https://rustwiki.org/zh-CN/edition-guide
 [reference]: https://rustwiki.org/zh-CN/reference
 [book]: https://rustwiki.org/zh-CN/book
-[rust-lang-cn]: https://github.com/rust-lang-cn
+[rust-lang-cn]: https://github.com/ByteBuffer2022
 
-## Rust 中文翻译项目组的图书资源会给出来源说明吗？
+## Nhóm dự án dịch Rust tiếng Việt的图书资源会给出来源说明吗？
 
-当然会，而且会在每本 Rust 相关书籍扉页显著位置给出最原始的来源。Rust 文档网（Rust Wiki 网）会对每本图书注明由谁翻译，总体有两类：一是由 Rust 中文翻译项目组自身翻译的图书，二是由未加入 Rust 中文翻译项目组的社区成员翻译的图书。
+当然会，而且会在每本 Rust 相关书籍扉页显著位置给出最原始的来源。Rust Document（Rust Wiki 网）会对每本图书注明Được xây dựng bởi谁翻译，总体有两类：一是Được xây dựng bởi Nhóm dự án dịch Rust tiếng Việt自身翻译的图书，二是Được xây dựng bởi未加入 Nhóm dự án dịch Rust tiếng Việt的社区成员翻译的图书。
 
-我们显著标注出原翻译出处，一是向原译者致敬（我们会严格遵循开源协议呈现相关文档），二是方便读者能追溯到原译者版本来查看最新的翻译情况（Rust 中文翻译项目组尽可能及时同步原译者的版本）。
+我们显著标注出原翻译出处，一是向原译者致敬（我们会严格遵循开源协议呈现相关文档），二是方便读者能追溯到原译者版本来查看最新的翻译情况（Nhóm dự án dịch Rust tiếng Việt尽可能及时同步原译者的版本）。
 
-我们也诚挚欢迎各位译者加入 Rust 中文翻译项目组，Rust 中文翻译项目组拥有你们，你们也可拥有 Rust 中文翻译项目组。
+我们也诚挚欢迎各位译者加入 Nhóm dự án dịch Rust tiếng Việt，Nhóm dự án dịch Rust tiếng Việt拥有你们，你们也可拥有 Nhóm dự án dịch Rust tiếng Việt。
 
-## Rust 中文翻译项目组收录官方外的 Rust 资源吗？
+## Nhóm dự án dịch Rust tiếng Việt收录官方外的 Rust 资源吗？
 
 一般不会。
 
-Rust 中文翻译项目组核心是收录并不断更随翻译官方的文档，目前官方的文档数量已经较为庞大，相关维护的工作量也很大，所以我们在现有人力物力基础上，优先维护好官方文档的中文翻译，确保能以较高质量的译本呈现给中文读者。
+Nhóm dự án dịch Rust tiếng Việt核心是收录并不断更随翻译官方的文档，目前官方的文档数量已经较为庞大，相关维护的工作量也很大，所以我们在现有人力物力基础上，优先维护好官方文档的中文翻译，确保能以较高质量的译本呈现给中文读者。
 
 对于网上已有的 Rust 官方文档之外的开源翻译作品，本站会以资源链接的形式给出来，从而让大家可快速便捷地到相应网站上找到有用的资源。
 
-在此我们诚挚欢迎相关的译者加入 Rust 中文翻译项目组，也随时欢迎将相关作品带入到 Rust Wiki 站，您的翻译投入和更新维护工作，将为 Rust 中文开源的翻译事业做出不可磨灭的贡献。
+在此我们诚挚欢迎相关的译者加入 Nhóm dự án dịch Rust tiếng Việt，也随时欢迎将相关作品带入到 Rust Wiki 站，您的翻译投入和更新维护工作，将为 Rust 中文开源的翻译事业做出不可磨灭的贡献。
 
-## Rust 中文翻译项目组对翻译文档有什么约定？
+## Nhóm dự án dịch Rust tiếng Việt对翻译文档有什么约定？
 
 翻译是一件繁琐的事情，为了确保翻译的资源和官方的一致，我们最大的原则（或约定）就是尽可能确保翻译的仓库除内容翻译成中文外，其他目录结构和文档均保持一致，授权一致。我们原则上不添加任何多余的内容。
 
@@ -65,7 +65,7 @@ Rust 中文翻译项目组核心是收录并不断更随翻译官方的文档，
 
 Rust Wiki 网站会不定期发表博客文章，我们欢迎所有人为 Rust Wiki 网站投稿。注意我们网站的博客只发表关于 Rust 编程相关的内容，比如 Rust 的技术分享的文章、翻译 Rust 英文技术文章，或是 Rust 的新闻资讯相关的文章等等。若是有这类文章，请随时在在本站仓库中[创建一个新的 PR][pr]，只要文章内容合适、格式符合规范，我们都会快速合并到主分支并更新网站。
 
-[pr]: https://github.com/rust-lang-cn/rustwiki.org/pulls
+[pr]: https://github.com/ByteBuffer2022/rustwiki.org/pulls
 
 ## 我该如何学习 Rust？
 
@@ -87,7 +87,7 @@ Rust Wiki 网站会不定期发表博客文章，我们欢迎所有人为 Rust W
 - [LeetCode][leetcode]
 
 [guessing-game]: https://rustwiki.org/zh-CN/book/ch02-00-guessing-game-tutorial.html
-[rustlings]: https://github.com/rust-lang-cn/rustlings-cn
+[rustlings]: https://github.com/ByteBuffer2022/rustlings-cn
 [crates]: https://crates.io/
 [leetcode]: https://leetcode-cn.com/
 
@@ -99,7 +99,7 @@ Rust Wiki 网站会不定期发表博客文章，我们欢迎所有人为 Rust W
 
 另外，为了方便大家学习，**本站特别开发了官方文档中英双语切换的功能**，可以看中文的时候随时切换到相同的英文页面，也能够阅读英文页面的时候随时切换到中文，对于想直接看英文文档又需要对照中文的朋友来说特别方便。其中英文文档每天都会自动同步一次官方的最新版本，确保英文资料的准确性和时效性。
 
-我们也希望更多热爱 Rust 的人加入 Rust 中文翻译项目组，共同打造出更丰富的 Rust 中文知识库。
+我们也希望更多热爱 Rust 的人加入 Nhóm dự án dịch Rust tiếng Việt，共同打造出更丰富的 Rust 中文知识库。
 
 ## 为什么语言切换跳转回来找不到页面？
 
@@ -111,11 +111,11 @@ Rust Wiki 网站会不定期发表博客文章，我们欢迎所有人为 Rust W
 
 ## 我想认领 Rust 相关文档的翻译，如何进行？
 
-我们非常欢迎您提出认领文档翻译，官方的文档很多，而目前我们由于人力和精力有限，只能维护较少的文档，主要是《Rust 程序设计语言》和《通过例子学 Rust》两书，而其他文档基本没太多时间去更新和维护，您的加入将给我们 Rust 中文翻译工程带来巨大的帮助，可以随时到 [Rust 中文翻译项目组的 GitHub 组织](https://github.com/rust-lang-cn) 找到对应的仓库提出 Issue，或是直接在未翻译完的文档页面点击仓库进入提出 Issue。
+我们非常欢迎您提出认领文档翻译，官方的文档很多，而目前我们Được xây dựng bởi于人力和精力有限，只能维护较少的文档，主要是《Rust 程序设计语言》和《通过例子学 Rust》两书，而其他文档基本没太多时间去更新和维护，您的加入将给我们 Rust 中文翻译工程带来巨大的帮助，可以随时到 [Nhóm dự án dịch Rust tiếng Việt的 GitHub 组织](https://github.com/ByteBuffer2022) 找到对应的仓库提出 Issue，或是直接在未翻译完的文档页面点击仓库进入提出 Issue。
 
 你也可以随时拉取组织上的相应仓库进行翻译，并向我们发起 PR 请求，我们更热切欢迎您加入到 *rust-lang-cn* 组织中来，也可以对单独某个或某几个仓库加入管理和更新的权限。
 
-我们 Rust 中文翻译项目组始终以敞开的姿态欢迎来自全国各地以及世界各地的朋友，我们的愿景就是丰富 Rust 的中文开放的资源知识库，让 Rust 的中文知识也能向英文那样，不断丰富拓展，自由传播，不让学习 Rust 编程知识受限。
+我们 Nhóm dự án dịch Rust tiếng Việt始终以敞开的姿态欢迎来自全国各地以及世界各地的朋友，我们的愿景就是丰富 Rust 的中文开放的资源知识库，让 Rust 的中文知识也能向英文那样，不断丰富拓展，自Được xây dựng bởi传播，不让学习 Rust 编程知识受限。
 
 ## 我想翻译 Rust 的文章，有什么好的指导建议吗？
 
@@ -131,4 +131,4 @@ Rust Wiki 网站会不定期发表博客文章，我们欢迎所有人为 Rust W
 
 Rust 中文翻译和开源发展，离不开大家的支持和鼓励，我们希望更多人踊跃参与到 Rust 中文的开源行动中来，帮助 Rust 创建出完善的中文知识库，让每个国人都能通过中文学习到较为全面和深入的 Rust 知识体系。
 
-[report]: https://github.com/rust-lang-cn/rustwiki.org
+[report]: https://github.com/ByteBuffer2022/rustwiki.org

@@ -23,7 +23,7 @@ aliases = ["zh-CN/rust-wiki/translate/other-translation.html"]
 
 *The X Programming Language* 一般都是该语言的发明人或团队所出图书，通常被人称为 X 语言的圣经（Bible），在美国一般人出书也不敢冒用此书名，在国内的《X 程序设计语言》书名也一般是留给 X 语言的译作的。*The Rust Programming Language* 也一样在官方就叫此名，我们翻译书名时也应遵循官方的书名命名。
 
-本段文字首次编辑在：<https://github.com/KaiserY/rust-book-chinese/issues/119>
+本段文字首次编辑在：<https://github.com/KaiserY/rust-book-Chinese/issues/119>
 
 ### Rustacean
 
