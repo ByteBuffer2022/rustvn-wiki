@@ -12,4 +12,4 @@ aliases = ["vi-VN/rust-wiki/notice/about-rust-lang-cn.html"]
 
 [rust-lang-cn]: https://github.com/ByteBuffer2022
 [rustwiki]: https://github.com/ByteBuffer2022
-[rustvn-com]: https://rustvn.com
+[rustvn-com]: https://www.rustvn.com

@@ -7,11 +7,11 @@ description = "The Rust Official Documentation Translation Project Team provides
 
 [extra.button]
 primary = "Rust programming language"
-primary_url = "https://rustvn.com/vi-VN/book"
+primary_url = "https://www.rustvn.com/vi-VN/book"
 primary_path = "vi-VN/book"
 
 outline = "Learn by example Rust"
-outline_url = "https://rustvn.com/vi-VN/rust-by-example"
+outline_url = "https://www.rustvn.com/vi-VN/rust-by-example"
 outline_path = "vi-VN/rust-by-example"
 
 content = "👉 Rust The official two essential learning tutorials"
@@ -21,7 +21,7 @@ content = "👉 Rust The official two essential learning tutorials"
 [[extra.items]]
 title = "Rust programming language"
 content = 'Rust Officially edited Rust Basic Tutorial</b>'
-url = "https://rustvn.com/vi-VN/book"
+url = "https://www.rustvn.com/vi-VN/book"
 path = "vi-VN/book"
 icon = "ti-medall"
 translate_done = true
@@ -29,7 +29,7 @@ translate_done = true
 [[extra.items]]
 title = "Học Rust qua ví dụ"
 content = "Hàng trăm nghìn ví dụ Rust"
-url = "https://rustvn.com/vi-VN/rust-by-example"
+url = "https://www.rustvn.com/vi-VN/rust-by-example"
 path = "vi-VN/rust-by-example"
 icon = "ti-star"
 translate_done = true
@@ -73,7 +73,7 @@ is_doing = true
 [[extra.other_items]]
 title = "Rust version guide"
 content = "Learn about Rust releases, such as the first (Rust 2015), Rust 2018, and 2021 releases, and learn how to migrate your code."
-url = "https://rustvn.com/vi-VN/edition-guide/"
+url = "https://www.rustvn.com/vi-VN/edition-guide/"
 path = "vi-VN/edition-guide"
 icon = "ti-layers-alt"
 translate_done = true
@@ -102,7 +102,7 @@ is_doing = true
 [[extra.other_items]]
 title = "Rust specification document"
 content = "Các nguồn tài liệu tiếng Việt và các biện pháp hỗ trợ, hướng dẫn dịch thuật liên quan, và hướng dẫn vận hành cộng đồng của Nhóm dự án dịch tiếng Việt."
-url = "https://rustvn.com/wiki"
+url = "https://www.rustvn.com/wiki"
 path = "wiki"
 icon = "ti-ruler-pencil"
 is_wiki = true
@@ -110,7 +110,7 @@ is_wiki = true
 [[extra.other_items]]
 title = "Bảng so sánh thuật ngữ tiếng Việt và tiếng Anh"
 content = "Nhóm dự án dịch Rust tiếng Việt cung cấp sự nhất quán về tài liệu và sách dành riêng cho việc triển khai Rust."
-url = "https://rustvn.com/wiki/translate/english-Vietnamese-glossary-of-rust"
+url = "https://www.rustvn.com/wiki/translate/english-Vietnamese-glossary-of-rust"
 path = "wiki/translate/english-Vietnamese-glossary-of-rust"
 icon = "ti-world"
 is_wiki = true

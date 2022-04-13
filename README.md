@@ -3,7 +3,7 @@
 
 ![rustwiki.org](https://github.com/ByteBuffer2022/rustvn-wiki)
 
-This is the source code of the [rustwiki.org](https://github.com/ByteBuffer2022/rustvn-wiki) and [rustvn.com](https://rustvn.com) websites.
+This is the source code of the [rustwiki.org](https://github.com/ByteBuffer2022/rustvn-wiki) and [www.rustvn.com](https://www.rustvn.com) websites.
 
 ## Running and Building
 

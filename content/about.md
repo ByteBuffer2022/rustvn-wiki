@@ -9,7 +9,7 @@ id = "kube-about"
 
 ## Trang web của chúng tôi là gì?
 
-Trang web của chúng tôi là *rustvn.com*，về hướng dẫn ngôn ngữ lập trình Rust **phi lợi nhuận**.Thư viện tài liệu Rust tiếng Việt được xây dựng bởi [Nhóm dự án dịch Rust tiếng Việt][rust-lang-vi]（*rust-lang-vi*）tạo ra. Chúng tôi bị ảnh hưởng sâu sắc bởi nhóm phát triển Rust, nhóm đã phát triển ngôn ngữ Rust ở dạng mã nguồn mở chưa từng có và đã đưa ra một mô hình tổ chức mã nguồn mở toàn diện và được tiêu chuẩn hóa. Trang web chính thức của Rust cũng cung cấp một bộ tài liệu toàn diện, nhưng cho đến nay chỉ bằng tiếng Anh.
+Trang web của chúng tôi là *www.rustvn.com*，về hướng dẫn ngôn ngữ lập trình Rust **phi lợi nhuận**.Thư viện tài liệu Rust tiếng Việt được xây dựng bởi [Nhóm dự án dịch Rust tiếng Việt][rust-lang-vi]（*rust-lang-vi*）tạo ra. Chúng tôi bị ảnh hưởng sâu sắc bởi nhóm phát triển Rust, nhóm đã phát triển ngôn ngữ Rust ở dạng mã nguồn mở chưa từng có và đã đưa ra một mô hình tổ chức mã nguồn mở toàn diện và được tiêu chuẩn hóa. Trang web chính thức của Rust cũng cung cấp một bộ tài liệu toàn diện, nhưng cho đến nay chỉ bằng tiếng Anh.
 
 Vì lý do này, chúng tôi đã tạo Tài liệu Rust (Rust Wiki) phiên bản tiếng Việt, tài liệu này cũng tập hợp tất cả các loại tài liệu chi tiết về Rust, để giới thiệu tốt hơn các nguồn tài liệu Rust của Việt Nam cho mọi người. Cũng giống như trang web chính thức của Rust, bạn có thể tìm thấy các tài liệu quan trọng về Rust bằng tiếng Anh trên trang web chính thức của Rust và Rust Wiki cũng cố gắng cung cấp các tài liệu quan trọng liên quan đến Rust bằng tiếng Việt. Tất cả các tài liệu của chúng tôi đều có sẵn dưới dạng mã nguồn mở, tại [GitHub][rust-lang-vi] Các tài liệu liên quan có thể được tìm thấy trên [Tất cả mã nguồn, tài liệu và bài viết trên trang web này][rustwiki]，Trừ khi có quy định khác, mã nguồn và các bài báo của trang web này tuân theo [MIT protocol][mit]。
 
@@ -33,14 +33,14 @@ Trang web này chủ yếu sử dụng các công cụ liên quan đến Rust đ
 
 Nhóm dự án dịch Rust tiếng Việt Được xây dựng bởi cộng đồng Rust VN ，Bao gồm cả các nhà phát triển và sinh viên, chúng tôi tuân thủ khái niệm mã nguồn mở, chia sẻ và hỗ trợ lẫn nhau。**Chúng tôi thành lập một nhóm dịch và tạo [GitHub][rust-lang-vi] Mục đích ban đầu cơ bản nhất là đảm bảo rằng kết quả của bản dịch tiếng Việt có thể được dành riêng cho tất cả các nhà phát triển, không thuộc về một người nhất định và việc duy trì tài liệu sẽ không bị tạm dừng do sự ra đi của một người nhất định. lý do, nhóm dự án của chúng tôi tiếp tục chào đón những nhà phát triển tương tự. Những người bạn cùng ý tưởng tham gia. Nếu bạn có thời gian và năng lượng, chúng tôi cũng hoan nghênh bạn trở thành chủ sở hữu của nhóm dự án, để nhóm dự án có thể duy trì một luồng liên tục của Được xây dựng bởi một nhóm người thay vì một mình, do đó đảm bảo tính liên tục của bảo trì tài liệu. Trọng tâm của chúng tôi là dịch tài liệu chính thức của Rust và chúng tôi cũng có thể dịch tài liệu không chính thức nếu chúng tôi có đủ khả năng. Nếu bạn đã dịch các tài liệu hoặc sách liên quan đến Rust, bạn cũng có thể tham gia nhóm dự án dịch. Chúng tôi nhiệt liệt chào mừng bạn trở thành một thành viên quan trọng trong nhóm của chúng tôi. Nhóm dự án dịch Rust tiếng Việt thuộc về chúng tôi và dành cho tất cả những ai tham gia nhóm dự án.
 
-Tên miền của trang web chính thức của nhóm dự án Rust Việt Nam là *rustvn.com*.Được vận hành server bởi đội ngũ admin.
+Tên miền của trang web chính thức của nhóm dự án Rust Việt Nam là *www.rustvn.com*.Được vận hành server bởi đội ngũ admin.
 [rust-lang-vi]: https://github.com/ByteBuffer2022
 
 ## Tham gia với chúng tôi
 
 Nhóm dự án  Rust tiếng Việt là một tổ chức mở được thành lập trên GitHub. Chúng tôi hoan nghênh tất cả những người yêu mến Rust tham gia và cùng nhau nỗ lực để nâng cao nền tảng kiến thức tiếng Việt của Rust từng bước hướng tới mục tiêu của tổ chức. Trước khi tham gia một tổ chức, hãy đảm bảo rằng bạn đã đăng ký [GitHub][github] Tài khoản và làm quen với các công cụ Git, vì nội dung tài liệu của chúng tôi được viết bằng các công cụ Git và nền tảng lưu trữ GitHub.
 
-Sau khi đăng ký tài khoản GitHub, bạn có thể [*rustvn.com* forum][rustwiki] Nếu bạn bắt đầu đăng ký tham gia tổ chức, chúng tôi sẽ xác nhận người tham gia và thêm vào tổ chức GitHub; hoặc tham gia nhóm dịch của chúng tôi bằng cách đăng kí trên group facebook [Group cộng đồng Rust VN][facebook-group]  (lưu ý rằng bạn cần cung cấp tên người dùng GitHub để đăng kí nhóm dịch), hãy liên hệ với quản trị viên nhóm để hiểu tình hình liên quan và đăng ký tham gia tổ chức GitHub.
+Sau khi đăng ký tài khoản GitHub, bạn có thể [*www.rustvn.com* forum][rustwiki] Nếu bạn bắt đầu đăng ký tham gia tổ chức, chúng tôi sẽ xác nhận người tham gia và thêm vào tổ chức GitHub; hoặc tham gia nhóm dịch của chúng tôi bằng cách đăng kí trên group facebook [Group cộng đồng Rust VN][facebook-group]  (lưu ý rằng bạn cần cung cấp tên người dùng GitHub để đăng kí nhóm dịch), hãy liên hệ với quản trị viên nhóm để hiểu tình hình liên quan và đăng ký tham gia tổ chức GitHub.
 
 [github]: https://github.com
 [facebook-group]: https://www.facebook.com/groups/546307380433651

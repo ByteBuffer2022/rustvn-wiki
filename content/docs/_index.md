@@ -10,13 +10,13 @@ lead = "Danh sách các tài liệu liên quan như hướng dẫn  Rust tiếng
 # title = "Ngôn ngữ lập trình Rust "
 # content = "Hướng dẫn Rust "
 # path = "vi-VN/book"
-# url = "https://rustvn.com/vi_VN/book"
+# url = "https://www.rustvn.com/vi_VN/book"
 
 [[extra.docs]]
 title = "Ngôn ngữ lập trình Rust "
 content = "Hướng dẫn Rust "
 # path = "vi-VN/book"
-# url = "https://rustvn.com/vi_VN/book"
+# url = "https://www.rustvn.com/vi_VN/book"
 page_path = "docs/book"
 rust_done = true
 repo = "https://github.com/ByteBuffer2022"
@@ -25,7 +25,7 @@ is_hot = true
 [[extra.docs]]
 title = "Learn Rust by example "
 content = "Hướng dẫn ví dụ chính thức để học Rust có thể nhanh chóng nắm vững kiến ​​thức ngôn ngữ và ứng dụng của Rust. Bằng cách đọc và viết các ví dụ này, bạn có thể nhanh chóng bắt đầu và làm quen với Rust."
-# url = "https://rustvn.com/vi-VN/rust-by-example/"
+# url = "https://www.rustvn.com/vi-VN/rust-by-example/"
 path = "vi-VN/rust-by-example"
 rust_done = true
 # repo = "https://github.com/ByteBuffer2022/rust-by-example-cn/fork"

@@ -14,6 +14,6 @@ Tài liệu đặc tả Rust chứa một loạt các tài liệu liên quan đ�
 Đừng quên ý định ban đầu và nhấn mạnh vào việc cập nhật. Trong sáu năm qua, Nhóm dự án dịch Rust tiếng Việt đã cập nhật tài liệu chính thức của Rust và liên tục duy trì tài liệu tiếng Việt, đồng thời không ngừng mở rộng và cải tiến các nội dung liên quan. Trong tương lai, tôi sẽ tiếp tục kiên trì như mọi khi và cố gắng liên tục cập nhật và lặp lại để cải thiện vật liệu Rust.
 
 [github]: https://github.com/ByteBuffer2022/rust-book-vn
-[rustwiki]: https://rustvn.com
+[rustwiki]: https://www.rustvn.com
 [group]: https://www.facebook.com/groups/546307380433651
 

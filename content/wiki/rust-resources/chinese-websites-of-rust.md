@@ -7,6 +7,6 @@ aliases = ["vi-VN/rust-wiki/rust-resources/Vietnamese-websites-of-rust.html"]
 +++
 
 Sau đây liệt kê các trang web Rust của VN được thu thập cho đến nay:
-- Rust vn website：<https://rustvn.com/>
+- Rust vn website：<https://www.rustvn.com/>
 
 > 👉 Nếu bạn tìm thấy thêm các trang web liên quan đến Rust, vui lòng truy cập trực tiếp vào [repository](https://github.com/ByteBuffer2022)raised on *Issues* or *Pull requests*。

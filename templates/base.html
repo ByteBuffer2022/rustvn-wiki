@@ -18,7 +18,7 @@
     <link type="application/atom+xml" rel="alternate" href="{{ get_url(path=config.feed_filename | default(value="atom.xml")) | safe }}" title="{{ config.title | default(value="Rust Wiki") }}" />
   {% endif %}
   
-  {% if config.base_url == "https://rustvn.com" -%}
+  {% if config.base_url == "https://www.rustvn.com" -%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFFPZ2X5CB"></script>
     <script>
@@ -57,10 +57,10 @@
 						{% for menu in config.extra.menu %}
 							<li><a href="{{ menu.url | default(value=get_url(path=menu.path | default(value="/") | safe) | safe) | safe }}">{{ menu.name }}</a></li>
 						{% endfor %}
-            {% if config.base_url == "https://rustvn.com" %}
-              <li><a href="https://rustvn.com">Trang chủ</a></li>
+            {% if config.base_url == "https://www.rustvn.com" %}
+              <li><a href="https://www.rustvn.com">Trang chủ</a></li>
             {% else %}
-              <li><a href="https://rustvn.com">Trang chủ</a></li>
+              <li><a href="https://www.rustvn.com">Trang chủ</a></li>
             {% endif %}
 					</ul>
 				{%- endif %}
@@ -93,7 +93,7 @@
 			</nav>
 			<p class="copyright">
         {{ config.extra.copy | default(value="&copy; 2016-2021 rust-lang-cn") | safe }}
-        {% if config.base_url == "https://rustvn.com" %}
+        {% if config.base_url == "https://www.rustvn.com" %}
           <a href="https://beian.miit.gov.cn" target="_blank">沪 ICP 备 15051443 号-5</a>
         {% endif %}
       </p>
