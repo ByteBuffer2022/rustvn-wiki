@@ -15,96 +15,91 @@
 
 	</style>
 	<!--[if lte IE 8]>
-<div class="warning">
-    This old browser is unsupported and will most likely display funky
-    things.
-</div>
-<![endif]-->
+	<div class="warning">
+		This old browser is unsupported and will most likely display funky
+		things.
+	</div>
+	<![endif]-->
 </head>
 
 <body class="rustdoc">
-	<h1 class="title">{{ section.title }}</h1>
-	<p>Chào mừng đã thư viện tài liệu Rust Việt Name <a href="https://www.rust-lang.org/">Rust official</a>
-		All the important documents are translated into Vietnames documents, so that all official data translations are concentrated in one place and presented to all friends who are learning Rust. The copyright of the translated document follows the copyright of the original English document (the English copyright is usually<a
-			href="https://opensource.org/licenses/MIT">MIT lience</a> 或 <a
-			href="https://www.apache.org/licenses/LICENSE-2.0">Apache 协议</a>）。</p>
-	<p>翻译的工作由 <a href="https://github.com/rust-lang-cn">Rust 中文翻译项目组</a> 进行，也有一些文档由其他一些个人完成，希望大家都加进组织。本组织为非营利组织，由 Rust
-		语言的爱好者组成，欢迎对 Rust 感兴趣的学生、工程师加入<a href="https://github.com/rust-lang-cn"> 本工程的 GitHub 组织</a>，一起推动 Rust 的中文本地化工作，让
-		Rust 的中文资料跟随 Rust 官方保持到最新的版本，给广大的中文世界的朋友带来学习的便捷。</p>
-	<p>这些资源大多以“书籍”（网页版电子书）的形式呈现出来，我们称之为“Rust 书架”，文档有大有小。</p>
-	<p>点击查看本页所有 <a href="{{ get_url(path="docs") | safe }}">Rust 的中文资料的快速索引页面</a>。</p>
+<h1 class="title">{{ section.title }}</h1>
+<p>Chào mừng bạn đến thư viện tài liệu Rust tiếng Việt , mục tiêu của thư viện tài liệu này là <a href="https://www.rust-lang.org/"> Trang chính thức của Rust.</a>
+	Tất cả các tài liệu quan trọng được dịch sang tài liệu tiếng Việt, do đó tất cả các bản dịch dữ liệu chính thức được tập trung ở một nơi và được trình bày cho tất cả bạn bè đang học Rust. Bản quyền của tài liệu dịch tuân theo bản quyền của tài liệu gốc tiếng Anh (bản quyền tiếng Anh thường là <a
+			href="https://opensource.org/licenses/MIT">MIT protocol</a> or <a
+			href="https://www.apache.org/licenses/LICENSE-2.0">Apache protocol</a>）。</p>
+<p>Translation work by <a href="https://github.com/ByteBuffer2022/rust-book-vn">Nhóm dự án dịch Rust tiếng Việt</a> Còn một số tài liệu do một số cá nhân khác hoàn thiện, mong mọi người cùng tổ chức. Tổ chức này là một tổ chức phi lợi nhuận, được điều hành bởi cộng đồng Rust VN
+	Một nhóm những người đam mê ngôn ngữ, sinh viên và kỹ sư quan tâm đến Rust được hoan nghênh tham gia<a href="https://github.com/ByteBuffer2022"> GitHub organization for this project</a>，一Bắt đầu thúc đẩy công việc Viêt hóa tài liệu của Rust, hãy
+	Thông tin tiếng Việt của Rust được cập nhật phiên bản mới nhất với Rust chính thức, mang đến sự thuận tiện cho đa số các bạn bè trên thế giới học tiếng Việt.</p>
+<p>Hầu hết các tài nguyên này được trình bày dưới dạng "sách" (sách điện tử dựa trên web), mà chúng tôi gọi là "giá sách Rust", với các tài liệu lớn và nhỏ.</p>
+<p>Click to view all on this page <a href="{{ get_url(path="docs") | safe }}">A quick index page for Rust's Vietnamese sources</a>。</p>
 
-	<h1 id="{{ section.extra.learn.id }}" class="section-header"><a href="#{{ section.extra.learn.id }}">{{ section.extra.learn.title }}</a></h1>
-	<p>{{ section.extra.learn.content | safe }}</p>
-	{% if section.extra.learn.list %}
-	  {% for item in section.extra.learn.list %}
-	  	<h2 id="{{ item.id }}" class="section-header"><a href="#{{ item.id }}">{{ item.title }}</a></h2>
-		<p>{{ item.content | safe }}</p>
-	  {% endfor %}
-	{% endif %}
+<h1 id="{{ section.extra.learn.id }}" class="section-header"><a href="#{{ section.extra.learn.id }}">{{ section.extra.learn.title }}</a></h1>
+<p>{{ section.extra.learn.content | safe }}</p>
+{% if section.extra.learn.list %}
+{% for item in section.extra.learn.list %}
+<h2 id="{{ item.id }}" class="section-header"><a href="#{{ item.id }}">{{ item.title }}</a></h2>
+<p>{{ item.content | safe }}</p>
+{% endfor %}
+{% endif %}
 
-	<h1 id="{{ section.extra.use.id }}" class="section-header"><a href="#{{ section.extra.use.id }}">{{ section.extra.use.title }}</a></h1>
-	<p>{{ section.extra.use.content | safe }}</p>
-  {% if section.extra.use.list %}
-	  {% for item in section.extra.use.list %}
-	  	<h2 id="{{ item.id }}" class="section-header"><a href="#{{ item.id }}">{{ item.title }}</a></h2>
-		<p>{{ item.content | safe }}</p>
-    {% if item.form %}
-      <style>
-        nav {
-          display: none;
-        }
-        #search-input {
-          width: calc(100% - 58px);
-        }
-        #search-but {
-          cursor: pointer;
-        }
-        #search-but, #search-input {
-          padding: 4px;
-          border: 1px solid #ccc;
-          border-radius: 3px;
-          outline: none;
-          font-size: 0.7em;
-          background-color: #fff;
-        }
-        #search-but:hover, #search-input:focus {
-          border-color: #55a9ff;
-        }
-        h2 {
-          font-size: 18px;
-        }
-      </style>
-      {{ item.form | safe }}
-    {% endif %}
-	  {% endfor %}
-	{% endif %}
+<h1 id="{{ section.extra.use.id }}" class="section-header"><a href="#{{ section.extra.use.id }}">{{ section.extra.use.title }}</a></h1>
+<p>{{ section.extra.use.content | safe }}</p>
+{% if section.extra.use.list %}
+{% for item in section.extra.use.list %}
+<h2 id="{{ item.id }}" class="section-header"><a href="#{{ item.id }}">{{ item.title }}</a></h2>
+<p>{{ item.content | safe }}</p>
+{% if item.form %}
+<style>
+	nav {
+		display: none;
+	}
+	#search-input {
+		width: calc(100% - 58px);
+	}
+	#search-but {
+		cursor: pointer;
+	}
+	#search-but, #search-input {
+		padding: 4px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		outline: none;
+		font-size: 0.7em;
+		background-color: #fff;
+	}
+	#search-but:hover, #search-input:focus {
+		border-color: #55a9ff;
+	}
+	h2 {
+		font-size: 18px;
+	}
+</style>
+{{ item.form | safe }}
+{% endif %}
+{% endfor %}
+{% endif %}
 
-	<h1 id="more" class="section-header"><a href="#more">更多资料</a></h1>
-	<p>Rust Wiki 翻译了多份官方文档，也整理了来自其他译者的 Rust 相关资料，这些资料都在 Rust Wiki 的文档页列出来，详细见<a href="{{ get_url(path="docs") | safe }}">Rust 文档列表</a>，后续我们还会补充更多的 Rust 中文相关资源。</p>
-	<p>另外 Rust Wiki 还提供了 Rust 中文相关的规范指引，详细见<a href="{{ get_url(path="wiki") | safe }}">《Rust 规范文档》</a>的介绍页，我们会不断地完善 Rust 的相关指南内容。</p>
+<h1 id="more" class="section-header"><a href="#more">More info</a></h1>
+<p>Rust Wiki đã dịch một số tài liệu chính thức và biên dịch các tài liệu liên quan đến Rust từ các dịch giả khác. Những tài liệu này được liệt kê trên trang tài liệu của Rust Wiki. Để biết chi tiết, hãy xem<a href="{{ get_url(path="docs") | safe }}">Danh sách tài liệu Rust </a>，Chúng tôi sẽ bổ sung thêm nhiều tài nguyên liên quan đến Rust Vietnamese trong tương lai.</p>
+<p>Ngoài ra, Rust Wiki cũng cung cấp các hướng dẫn đặc điểm kỹ thuật liên quan đến tiếng Việt Rust. Để biết chi tiết, hãy xem<a href="{{ get_url(path="wiki") | safe }}">《Tài liệu thiết kế Rust 》</a>Trang giới thiệu của, chúng tôi sẽ tiếp tục cải thiện nội dung hướng dẫn có liên quan của Rust.</p>
 
-  <h1 id="translate-rust" class="section-header"><a href="#translate-rust">Rust 文档翻译规范</a></h1>
-	<p>Rust 中文翻译项目组已制定翻译 Rust 的相关规范，已整理出两份指引资料，文档的内容以<a href="https://creativecommons.org/publicdomain/zero/1.0/">“CC0
-			1.0协议”</a>公布，即这些规范文档为公有领域作品，可以不经过授权可以自由转载，可用于非营利或营利目的使用，包括书籍出版或网页内容编辑引用。欢迎大家对规范内容提出宝贵的更新建议，本组织将会持续完善相关的规范，给所有的
-		Rust 语言中文领域的朋友带来便利。以下是本组织已制定的两份规范文档：</p>
-	<h2 id="the-rust-translation-guide-for-docs" class="section-header"><a
-			href="#the-rust-translation-guide-for-docs">Rust 文档翻译指引</a></h2>
-	<p><a href="{{ get_url(path="wiki/translate/rust-translation-guide") | safe }}">《Rust 文档翻译指引》</a>为 Rust
-		中文翻译项目组制定的 Rust 文档的翻译指南。所有参与翻译 Rust 官方文档或 Rust 书籍的朋友都可以参阅本文档的内容，本文档将给出翻译 Rust 相关文档的注意点以及翻译的规范流程。同时本文档也给出 Rust
-		官方的各项资源指引。非常高兴大家对 Rust 的翻译的指引提出宝贵的意见，我们将不断完善翻译的规范，让整个 Rust 中文社区的朋友带来指引性的工作，也保证 Rust 文档的高质量呈现给中文的读者。</p>
-	<h2 id="english-chinese-glossary-of-rust" class="section-header"><a href="#the-rust-translation-guide-for-docs">Rust
-			语言术语中英文对照表</a></h2>
-	<p><a href="{{ get_url(path="wiki/translate/english-chinese-glossary-of-rust") | safe }}">《Rust
-			语言术语中英文对照表》</a>规范了 Rust 术语的中英文翻译，保证 Rust 中文术语的一致性。所有参与翻译 Rust 官方文档或编写 Rust 书籍的朋友都应该仔细核对本表格，本表格将持续更新优化。此表格也对于已经阅读中文
-		Rust 书籍的朋友快速掌握 Rust 中出现的相关英文术语，从而更高效阅读英文的文档。对于表格中术语翻译不合理的内容，随时欢迎在 GitHub 上的本仓库上指出，我们会听取您宝贵的建议。</p>
+<h1 id="translate-rust" class="section-header"><a href="#translate-rust">Đặc điểm kỹ thuật dịch tài liệu Rust </a></h1>
+<p>Nhóm dự án dịch tiếng Việt Rust đã xây dựng các thông số kỹ thuật liên quan để dịch Rust và đã biên soạn hai hướng dẫn. Nội dung của tài liệu như sau:<a href="https://creativecommons.org/publicdomain/zero/1.0/">“CC0 protocol
+	1.0”</a>Các tài liệu quy chuẩn này là các tác phẩm thuộc phạm vi công cộng và có thể được sao chép tự do mà không cần sự cho phép và có thể được sử dụng cho các mục đích phi lợi nhuận hoặc vì lợi nhuận, bao gồm xuất bản sách hoặc trích dẫn biên tập nội dung web. Chúng tôi hoan nghênh bạn đưa ra những đề xuất có giá trị để cập nhật các thông số kỹ thuật. Tổ chức sẽ tiếp tục cải thiện các thông số kỹ thuật liên quan để mang lại sự tiện lợi cho tất cả các bạn trong lĩnh vực ngôn ngữ tiếng Việt của Rust. Sau đây là hai văn bản quy phạm mà tổ chức đã xây dựng:</p>
+<h2 id="the-rust-translation-guide-for-docs" class="section-header"><a
+		href="#the-rust-translation-guide-for-docs">Nguyên tắc dịch tài liệu Rust</a></h2>
+<p><a href="{{ get_url(path="wiki/translate/rust-translation-guide") | safe }}">《Nguyên tắc dịch tài liệu Rust》</a>Hướng dẫn dịch cho tài liệu Rust do Dự án dịch tiếng Việt Rust phát triển. Tất cả các bạn tham gia dịch tài liệu chính thức của Rust hoặc sách về Rust có thể tham khảo nội dung tài liệu này, tài liệu này sẽ đưa ra những điểm chú ý khi dịch tài liệu liên quan đến Rust và quy trình chuẩn của bản dịch. Đồng thời, tài liệu này cũng đưa ra các hướng dẫn chính thức về tài nguyên Rust. Tôi rất vui vì bạn đã đưa ra những nhận xét có giá trị về nguyên tắc dịch của Rust. Chúng tôi sẽ tiếp tục cải thiện các đặc điểm dịch thuật, để bạn bè trong toàn bộ cộng đồng Rust Việt Nam có thể mang lại công việc hướng dẫn và cũng đảm bảo rằng chất lượng cao của tài liệu Rust là trình bày với độc giả Việt Nam.</p>
+<h2 id="english-chinese-glossary-of-rust" class="section-header"><a href="#the-rust-translation-guide-for-docs">Bảng so sánh thuật ngữ tiếng Việt và tiếng Anh</a></h2>
+<p><a href="{{ get_url(path="wiki/translate/english-vietnamese-glossary-of-rust") | safe }}">《Bảng so sánh thuật ngữ tiếng Việt và tiếng Anh》</a>Đã chuẩn hóa bản dịch từ tiếng Việt sang tiếng Anh của các thuật ngữ Rust để đảm bảo tính nhất quán của các thuật ngữ tiếng Việt của Rust. Tất cả các bạn tham gia dịch tài liệu chính thức của Rust hoặc viết sách về Rust nên xem kỹ biểu mẫu này, sẽ liên tục được cập nhật và tối ưu hóa. Bảng này cũng dành cho các bạn đã đọc sách tiếng Việt Rust có thể nhanh chóng nắm bắt các thuật ngữ tiếng Anh liên quan xuất hiện trong Rust, để có thể đọc các tài liệu tiếng Anh hiệu quả hơn. Đối với bản dịch không hợp lý của các điều khoản trong bảng, vui lòng chỉ ra trên kho lưu trữ này trên GitHub, chúng tôi sẽ lắng nghe những góp ý quý báu của bạn.</p>
 
-	<footer>
-		<p>本站其他语言版本：
-			<a href="{{ get_url(path="en") | safe }}">English</a>，
-			<a href="{{ config.base_url | safe }}">简体中文</a>
-		</p>
-	</footer>
+<footer>
+	<p>Các phiên bản ngôn ngữ khác của trang web này：
+		<a href="{{ get_url(path="en") | safe }}">English</a>，
+		<a href="{{ config.base_url | safe }}">Tiếng Việt</a>
+	</p>
+</footer>
 </body>
 </html>
 {% endblock base %}
+

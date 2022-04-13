@@ -50,13 +50,10 @@ path = "/wiki/"
 name = "Blog"
 path = "/blog/"
 
-[[extra.menu]]
-name = "Smart contract"
-path = "/smartcontract/"
 
 [[extra.menu]]
 name = "Rust programming exchange"
-url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.menu]]
 name = "GitHub"
@@ -94,11 +91,11 @@ path = "/about/"
 
 [[extra.footer]]
 name = "Rust Official website"
-url = "https://www.rust-lang.org/vi-VN"
+url = "https://www.rust-lang.org"
 
 [[extra.footer]]
 name = "Rust comminicate"
-url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.footer]]
 name = "GitHub"
@@ -132,5 +129,5 @@ name = "GitHub"
 url = "https://github.com/ByteBuffer2022"
 
 [[extra.en.footer]]
-name = "Tiếng Việt"
+name = "English"
 path = "/"

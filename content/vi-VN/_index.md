@@ -1,60 +1,60 @@
 +++
 title = "Tài liệu hướng dẫn lập trình Rust"
-description = "Rust 官方文档中文资源导航页面，包括 Rust 官方或非官方文档的中文翻译，以及 Nhóm dự án dịch Rust tiếng Việt制定的 Rust 翻译规范及标准，给 Rust 初学者带来友好便捷的学习指引。"
+description = "Tài liệu Rust Tiếng Việt"
 template = "i18/zh-cn.html"
 
 
 
 ################################################################
 #
-# 学习 Rust 部分
+# Rust
 #
 ################################################################
 
 [extra.learn]
-title = "学习 Rust"
-content = "这里列出学习 Rust 的最重要的官方文档的翻译文档："
+title = "Learn Rust"
+content = "Danh sách các bản dịch Rust quan trọng："
 id = "learn-rust"
 
 [[extra.learn.list]]
-title = "Rust 程序设计语言"
+title = "Ngôn ngữ Rust"
 id = "the-rust-programming-language"
-content = '<a href="book">《Rust 程序设计语言》</a>为 Rust 官方的最基本的学习文档，英文名为 <a href="https://doc.rust-lang.org/book/">“The Rust Programming Language”</a> （也简称为&quot;the book&quot;）。这是最基础的文档，每个学习 Rust 的朋友都应该优秀阅读本文档，掌握官方给出的最权威的学习 Rust 的指导，熟悉 Rust 的基础用法及 Rust 的最佳实践。'
+content = '<a href="book">《Rust Book》</a>Vì Rust Tài liệu học chính thức và cơ bản nhất, Tài liệu tiếng anh : <a href="https://doc.rust-lang.org/book/">“The Rust Programming Language”</a> （Còn được gọi là &quot;the book&quot;）Đây là tài liệu cơ bản nhất. Mọi người học Rust nên đọc kỹ tài liệu này, nắm vững hướng dẫn học Rust do người hướng dẫn đưa ra và nắm rõ cách sử dụng cơ bản của Rust và các phương pháp hay nhất của Rust.'
 
 [[extra.learn.list]]
-title = "通过例子学 Rust"
+title = "Học Rust qua ví dụ"
 id = "rust-by-example"
-content = '<a href="rust-by-example">《通过例子学 Rust》</a>（英文名为<a href="https://doc.rust-lang.org/rust-by-example/">“Rust By Example”</a>，简称“RBE”） 以另一种方式来讲解 Rust 的入门学习，通过经典的例子讲解 Rust 的概念，同时提供大量练习来掌握此语言。'
+content = '<a href="rust-by-example">《Hoc Rust qua ví dụ》</a>（tài liệu Tiếng Anh<a href="https://doc.rust-lang.org/rust-by-example/">“Rust By Example”</a>，Tên rút gọn “RBE”） Một cách khác để dạy cách học nhập môn về Rust, giải thích các khái niệm về Rust thông qua các ví dụ cổ điển, đồng thời cung cấp rất nhiều bài tập để thông thạo ngôn ngữ này.'
 
 [[extra.learn.list]]
-title = "Rustlings（Rust 小练习）"
+title = "Rustlings（Bài tập nhỏ về Rust ）"
 id = "rustlings"
-content = '<a href="https://github.com/ByteBuffer2022/rust-book-vn/rustlings-cn">Rustlings</a> 是一份学习 Rust 的交互式练习工具，并提供一系列例子，教你阅读、调试和编写 Rust 的代码，并掌握 Rust 的基础语法知识。Rustlings 提供了区别于《通过例子学 Rust》的学习 Rust 的方式。'
+content = '<a href="https://github.com/ByteBuffer2022/rust-book-vn">Rustlings</a> '
 
 
 
 ################################################################
 #
-# 使用 Rust 部分
+# Rust
 #
 ################################################################
 
 [extra.use]
-title = "使用 Rust"
-content = "在熟悉 Rust 语言后，日常使用 Rust 过程中将会经常用到以下资料，这里将各类重要的 Rust 文档归类，方便平时查用。"
+title = "Sử dụng Rust"
+content = "Sau khi làm quen với ngôn ngữ Rust, các tài liệu sau đây sẽ thường được sử dụng trong sử dụng hàng ngày của Rust, tại đây, các tài liệu quan trọng khác nhau về Rust được phân loại để bạn đọc dễ dàng tham khảo."
 id = "use-rust"
 
 [[extra.use.list]]
-title = "Rust 标准库"
+title = "Thư viện tiêu chuẩn Rust "
 id = "the-standard-library"
-content = 'Rust 标准库提供了大量的 <a href="std">API 文档</a>（英文名为<a href="https://doc.rust-lang.org/std/">Rust’s standard library</a>，解释了如何运用丰富的编程概念，并提供了完成各类操作的示例代码。'
-form = '<div><form action="std/index.html" method="get"><input id="search-input" type="search" name="search" placeholder="在标准库中搜索..."><button id="search-but">Search</button></form></div>'
+content = 'Thư viện tiêu chuẩn Rust cung cấp một số <a href="std">Tài liệu API </a>（Tài liệu tiếng anh <a href="https://doc.rust-lang.org/std/">Rust’s standard library</a>，Giải thích cách áp dụng các khái niệm lập trình phong phú và cung cấp mã mẫu để thực hiện các hoạt động khác nhau.'
+form = '<div><form action="std/index.html" method="get"><input id="search-input" type="search" name="search" placeholder="Tìm kiếm trong thư viện tiêu chuẩn..."><button id="search-but">Search</button></form></div>'
 
-# Rust 的标准库
+# Rust Hướng dẫn phiên bản
 
 [[extra.use.list]]
-title = "Rust 版本指南"
+title = "Hướng dẫn phiên bản Rust "
 id = "the-edition-guide"
-content = '<a href="edition-guide">《Rust 版本指南》</a> （英文名为<a href="https://doc.rust-lang.org/edition-guide/">“The Edition Guide”</a>）详细介绍了 Rust 版本有关的说明指南。'
+content = '<a href="edition-guide">《Hướng dẫn phiên bản Rust》</a> （Tài liệu Tiếng Anh<a href="https://doc.rust-lang.org/edition-guide/">“The Edition Guide”</a>）Thông tin chi tiết về hướng dẫn hướng dẫn cụ thể cho phiên bản Rust.'
 
 +++

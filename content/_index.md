@@ -1,6 +1,6 @@
 +++
-title = "Rust Official Document Chinese tutorial"
-description = "The Rust Official Documentation Translation Project Team provides a comprehensive Chinese knowledge base for learning Rust language official documentation and other tutorials, from introductory to in-depth learning of the Rust programming language. Various resources are provided by the Rust Translation Project Team and other hobbies who participate in Rust open source projects. provided jointly."
+title = "Rust Official Document VietNam tutorial"
+description = "The Rust Official Documentation Translation Project Team provides a comprehensive Vietnamese knowledge base for learning Rust language official documentation and other tutorials, from introductory to in-depth learning of the Rust programming language. Various resources are provided by the Rust Translation Project Team and other hobbies who participate in Rust open source projects. provided jointly."
 
 
 [extra]
@@ -16,7 +16,7 @@ outline_path = "zh-CN/rust-by-example"
 
 content = "👉 Rust The official two essential learning tutorials"
 
-# icon 来源：https://themify.me/themify-icons
+# icon source：https://themify.me/themify-icons
 
 [[extra.items]]
 title = "Rust programming language"
