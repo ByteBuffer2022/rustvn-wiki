@@ -57,7 +57,7 @@
 						{% for menu in config.extra.menu %}
 							<li><a href="{{ menu.url | default(value=get_url(path=menu.path | default(value="/") | safe) | safe) | safe }}">{{ menu.name }}</a></li>
 						{% endfor %}
-            {% if config.base_url == "https://rustwiki.org" %}
+            {% if config.base_url == "https://rustvn.com" %}
               <li><a href="https://rustvn.com">Trang chủ</a></li>
             {% else %}
               <li><a href="https://rustvn.com">Trang chủ</a></li>

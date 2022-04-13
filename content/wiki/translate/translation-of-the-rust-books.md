@@ -1,8 +1,8 @@
 +++
-title = "Rust 官方文档中文翻译现状"
+title = "Tình trạng bản dịch tiếng Việt các tài liệu Rust chính thức "
 weight = 5
 template = "wiki/page.html"
 draft = true
 +++
 
-避免重复翻译工作
+Tránh trùng lặp công việc dịch thuật

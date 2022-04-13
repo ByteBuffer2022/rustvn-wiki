@@ -6,7 +6,7 @@ description = "《Rust 程序设计语言》是官方最权威的 Rust 编程语
 lead = "《Rust 程序设计语言》是官方最权威的 Rust 编程语言入门资料和学习教程，Rust 中文项目组将持续更新和重点维护本书的中文开源翻译。"
 +++
 
-> 👉 在线阅读《Rust 程序设计语言》 {{ url(url="zh-CN/book", title="《Rust 程序设计语言》简体中文版", content="简体中文版") }}，或阅读{{ url(url="en/book", title="《Rust 程序设计语言》英文版（The Rust Programming Language）", content="英文原版") }} 。
+> 👉 在线阅读《Rust 程序设计语言》 {{ url(url="vi-VN/book", title="《Rust 程序设计语言》简体中文版", content="简体中文版") }}，或阅读{{ url(url="en/book", title="《Rust 程序设计语言》英文版（The Rust Programming Language）", content="英文原版") }} 。
 
 ## 简介
 
@@ -20,8 +20,8 @@ lead = "《Rust 程序设计语言》是官方最权威的 Rust 编程语言入�
 另外《Rust 程序设计语言》中文版的出版图书名称为《Rust 权威指南》（和开源版的翻译独立），但开源版书名我们会保留为《Rust 程序设计语言》译名，因为这已经是中文编程界中的约定，就如 “The C Programming Language” 翻译成《C 程序设计语言》一样，详细可见 {{ url(url="wiki/translate/other-translation#the-rust-programing-language", title="为什么我们将 The Rust Programming Language 翻译成 Rust 程序设计语言", content="Tài liệu Wiki") }}。
 
 [kaisery]: https://github.com/KaiserY
-[book-v1]: https://github.com/KaiserY/rust-book-Chinese
-[book-v2]: https://github.com/KaiserY/trpl-zh-cn
+[book-v1]: https://github.com/KaiserY/rust-book-Vietnamese
+[book-v2]: https://github.com/KaiserY/trpl-vi-VN
 
 ## Rust 翻译项目组对本书的翻译情况
 

@@ -32,7 +32,7 @@
                     <a href="{{ doc.repo | default(value='https://github.com/rust-lang/rust/fork') | safe }}" title="Fork me on {{ doc.title }}">
                     {%- include "svg/rust-en-fork.html" -%}
                   {% else -%}
-                    <a href="{{ doc.repo | default(value='https://github.com/rust-lang-cn/rustwiki.org') | safe }}" title="{{ doc.title }} 的 GitHub 仓库地址">
+                    <a href="{{ doc.repo | default(value='https://github.com/ByteBuffer2022/rustvn-wiki') | safe }}" title="{{ doc.title }} GitHub repository address of">
                     {%- include "svg/github-fork.html" -%}
                   {%- endif -%}
                   </a>
@@ -44,8 +44,8 @@
                 {% if doc.rust_en %}
                   <a href="{{ doc.url | default(value=get_url(path=doc.path | default(value="docs") | safe) | safe) | safe }}" title="Read {{ doc.title }}">📖 Getting Started</a>
                 {% else %}
-							    <a href="{{ doc.url | default(value=get_url(path=doc.path | default(value="docs") | safe) | safe) | safe }}" title="马上阅读 {{ doc.title }}">📖 立即阅读</a>
-							    {% if doc.page_path %}<a href="{{ get_url(path=doc.page_path) | safe }}" title="{{ doc.title }}介绍页">👉 查看介绍</a>{% endif %}
+							    <a href="{{ doc.url | default(value=get_url(path=doc.path | default(value="docs") | safe) | safe) | safe }}" title="Đọc ngay {{ doc.title }}">Đọc 📖 </a>
+							    {% if doc.page_path %}<a href="{{ get_url(path=doc.page_path) | safe }}" title="{{ doc.title }}Introduction page">👉 Xem giới thiệu</a>{% endif %}
                 {% endif %}
 							</h5>
 						</div>

@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://rustwiki.org"
+base_url = "https://rustvn.com"
 
 # The basic information
 title = "Rust document"
-description = "Tài liệu Rust là một cơ sở kiến thức trực tuyến về tài liệu ngôn ngữ Rust do nhóm dự án dịch tiếng Việt tài liệu chính thức của Rust tạo ra. Mạng này bao gồm nội dung học tiếng Việt toàn diện nhất về ngôn ngữ Việt Quốc và tài liệu giới thiệu về lập trình, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust và Rust Thông số kỹ thuật và tiêu chuẩn dịch tiếng Việt Rust do nhóm dự án dịch thuật phát triển. "
+description = "Tài liệu Rust là một cơ sở kiến thức trực tuyến về tài liệu ngôn ngữ Rust do nhóm dự án dịch tiếng Việt tài liệu chính thức của Rust tạo ra. Mạng này bao gồm nội dung học tiếng Việt toàn diện nhất về ngôn ngữ Việt Quốc và tài liệu giới thiệu về lập trình, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust và Rust Thông số kỹ thuật và tiêu chuẩn dịch  Rust tiếng Việt do nhóm dự án dịch thuật phát triển. "
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -50,13 +50,7 @@ path = "/wiki/"
 name = "Blog"
 path = "/blog/"
 
-[[extra.menu]]
-name = "Smart contract"
-path = "/smartcontract/"
 
-[[extra.menu]]
-name = "Rust programming exchange"
-url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
 
 [[extra.menu]]
 name = "GitHub"
@@ -94,11 +88,11 @@ path = "/about/"
 
 [[extra.footer]]
 name = "Rust Official website"
-url = "https://www.rust-lang.org/vi-VN"
+url = "https://www.rust-lang.org"
 
 [[extra.footer]]
 name = "Rust comminicate"
-url = "https://github.com/ByteBuffer2022/rustwiki.org/discussions"
+url = "https://github.com/ByteBuffer2022"
 
 [[extra.footer]]
 name = "GitHub"
@@ -132,5 +126,5 @@ name = "GitHub"
 url = "https://github.com/ByteBuffer2022"
 
 [[extra.en.footer]]
-name = "Tiếng Việt"
+name = "English"
 path = "/"

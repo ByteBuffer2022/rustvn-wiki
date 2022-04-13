@@ -1,15 +1,15 @@
 +++
-title = "Nhóm dự án dịch Rust tiếng Việt介绍"
+title = "Giới thiệu nhóm dự án dịch Rust tiếng Việt"
 weight = 5
 template = "wiki/page.html"
 
-aliases = ["zh-CN/rust-wiki/notice/about-rust-lang-cn.html"]
+aliases = ["vi-VN/rust-wiki/notice/about-rust-lang-cn.html"]
 +++
 
-[Nhóm dự án dịch Rust tiếng Việt][rust-lang-cn]是国内的 Rust 爱好者成立的文档翻译组织。我们深受 Rust 官方开发团队的影响，Rust 开发团队以前所未有的开放形式开发出 Rust 语言，并给出了全面且规范的开源组织范例。不管是代码组织形式，还是文档组织编排，还是社区运作方式，Rust 团队都以超高水平的管理方式来进行，这也给了我们如何运作中文项目组提供了极佳的榜样。
+[Nhóm dự án dịch Rust tiếng Việt][rust-lang-cn] Nó là một tổ chức dịch thuật tài liệu được thành lập bởi những người đam mê Rust trong nước. Chúng tôi bị ảnh hưởng sâu sắc bởi nhóm phát triển Rust chính thức, nhóm đã phát triển ngôn ngữ Rust ở dạng mở chưa từng có và đã đưa ra một mô hình tổ chức mã nguồn mở toàn diện và được tiêu chuẩn hóa. Cho dù đó là tổ chức mã, tổ chức tài liệu hay hoạt động cộng đồng, nhóm Rust được quản lý với cấp quản lý siêu cao, điều này cũng cung cấp cho chúng tôi một ví dụ tuyệt vời về cách vận hành nhóm dự án Việt Nam.
 
-为此，我们也创立了 [Rust Wiki 网][rustwiki-org]，从而更好地整合中文资源并呈现给大家。我们是一个非营利性的开源组织，我们所有的资源都以开源的形式提供，在 [GitHub][rust-lang-cn] 上均可以找到相关资源，包括 [Rust Wiki 网站的源码和文章][rustwiki]。
+Để đạt được mục tiêu này, chúng tôi cũng đã tạo[Rust Wiki][rustwiki-org]，Để tích hợp tốt hơn các nguồn tài liệu của Việt Nam và giới thiệu chúng với mọi người. Chúng tôi là một tổ chức nguồn mở phi lợi nhuận và tất cả tài liệu của chúng tôi được cung cấp dưới dạng nguồn mở tại [GitHub][rust-lang-cn] Các tài liệu liên quan có thể được tìm thấy trên [Rust Wiki][rustwiki]。
 
 [rust-lang-cn]: https://github.com/ByteBuffer2022
-[rustwiki]: https://github.com/ByteBuffer2022/rustwiki.org
-[rustwiki-org]: https://rustwiki.org
+[rustwiki]: https://github.com/ByteBuffer2022
+[rustvn-com]: https://rustvn.com
