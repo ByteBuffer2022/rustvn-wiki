@@ -10,13 +10,13 @@ lead = "Danh sách các tài liệu liên quan như hướng dẫn  Rust tiếng
 # title = "Ngôn ngữ lập trình Rust "
 # content = "Hướng dẫn Rust "
 # path = "vi-VN/book"
-# url = "https://www.rustvn.com/vi_VN/book"
+# url = "https://www.rustvn.com/vi-VN/book"
 
 [[extra.docs]]
 title = "Ngôn ngữ lập trình Rust "
 content = "Hướng dẫn Rust "
 path = "vi-VN/book"
-url = "https://www.rustvn.com/vi_VN/book"
+url = "https://www.rustvn.com/vi-VN/book"
 page_path = "docs/book"
 rust_done = true
 repo = "https://github.com/ByteBuffer2022"
