@@ -7,7 +7,7 @@ description = "Chúng tôi tạo ra trang web này mới mục đích phổ cậ
 
 [extra.button]
 primary = "Sách Ngôn ngữ Lập Trình Rust"
-primary_url = "https://www.rustvn.com/docs/book"
+primary_url = "https://www.rustvn.com/vi-VN/book"
 primary_path = "vi-VN/book"
 
 outline = "Học qua ví dụ"
