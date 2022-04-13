@@ -8,10 +8,10 @@
 		<time class="post-time"><span class="icon">
 				<i class="fa fa-clock-o" aria-hidden="true"></i>
 			</span>
-			<span>阅读时长：{{ page.reading_time / 2 | int }} 分钟</span>
+			<span>Reading time：{{ page.reading_time / 2 | int }} minutes</span>
 			<span class="icon">
 				<i class="fa fa-pencil" aria-hidden="true"></i>
-			</span>发布日期：<time datetime="{{ page.date }}">{{ page.date | date(format="%F")}}</time>
+			</span>Release date：<time datetime="{{ page.date }}">{{ page.date | date(format="%F")}}</time>
 		</time>
 	</div>
 	<div id="post-box">
@@ -20,19 +20,19 @@
 		</div>
 	
 		<div class="related">
-			<p>作者：{% if page.extra.team %}{{ page.extra.author }} 代表 {{ page.extra.team | safe}} 发布{% else %}<span itemprop="author">{{ page.extra.author | default(value="Rustacean") }}</span>{% endif %}
-				{% if page.extra.translator %}，译者：<span itemprop="translator">{{ page.extra.translator | default(value="rust-lang-cn") }}</span>{% endif %}<br>
-				本文链接：<a href="{{ current_url | safe }}" title="{{ page.title }}">{{ current_url | safe }}</a><br>
-				{% if page.extra.english_url %}英文原文：<a href="{{ page.extra.english_url | safe }}" title="{{ page.extra.english_title | default(value=page.title) }}">{{ page.extra.english_url | safe }}</a><br>{% endif %}
+			<p>Author：{% if page.extra.team %}{{ page.extra.author }} Represent {{ page.extra.team | safe}} release{% else %}<span itemprop="author">{{ page.extra.author | default(value="Rustacean") }}</span>{% endif %}
+				{% if page.extra.translator %}，translator：<span itemprop="translator">{{ page.extra.translator | default(value="rust-lang-cn") }}</span>{% endif %}<br>
+				Link to this article：<a href="{{ current_url | safe }}" title="{{ page.title }}">{{ current_url | safe }}</a><br>
+				{% if page.extra.english_url %}English original：<a href="{{ page.extra.english_url | safe }}" title="{{ page.extra.english_title | default(value=page.title) }}">{{ page.extra.english_url | safe }}</a><br>{% endif %}
 				{% if page.extra.translate_tool %}{{ page.extra.translate_tool | safe }}<br>{% endif %}
 				{% if page.taxonomies.categories -%}
-					分类：{% for category in page.taxonomies.categories -%}{% if category_flag %}，{% endif %}<span itemprop="articleSection"><a href="{{ get_taxonomy_url(kind='categories', name=category) | safe }}">{{ category }}</a></span>{% set_global category_flag = true %}{%- endfor %}
+				Classification：{% for category in page.taxonomies.categories -%}{% if category_flag %}，{% endif %}<span itemprop="articleSection"><a href="{{ get_taxonomy_url(kind='categories', name=category) | safe }}">{{ category }}</a></span>{% set_global category_flag = true %}{%- endfor %}
 				{%- endif %}
 
 				{%- if page.taxonomies.categories and page.taxonomies.tags %}<br>{% endif -%}
 	
 				{% if page.taxonomies.tags -%}
-					标签：{% for tag in page.taxonomies.tags -%}{% if tag_flag %}，{% endif %}<span
+				Label：{% for tag in page.taxonomies.tags -%}{% if tag_flag %}，{% endif %}<span
 					itemprop="articleSection"><a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag
 						}}</a></span>{% set_global tag_flag = true %}{%- endfor %}
 				{%- endif %}
