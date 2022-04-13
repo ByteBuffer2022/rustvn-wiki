@@ -17,7 +17,7 @@
 	{% if config.generate_feed %}
     <link type="application/atom+xml" rel="alternate" href="{{ get_url(path=config.feed_filename | default(value="atom.xml")) | safe }}" title="{{ config.title | default(value="Rust Wiki") }}" />
   {% endif %}
-  
+
   {% if config.base_url == "https://www.rustvn.com" -%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFFPZ2X5CB"></script>
@@ -58,9 +58,9 @@
 							<li><a href="{{ menu.url | default(value=get_url(path=menu.path | default(value="/") | safe) | safe) | safe }}">{{ menu.name }}</a></li>
 						{% endfor %}
             {% if config.base_url == "https://www.rustvn.com" %}
-              <li><a href="https://www.rustvn.com">Trang chủ</a></li>
+              <li><a href="https://www.facebook.com/groups/546307380433651">Cộng đồng Rust VN -Facebook</a></li>
             {% else %}
-              <li><a href="https://www.rustvn.com">Trang chủ</a></li>
+              <li><a href="https://www.facebook.com/groups/546307380433651">Cộng đồng Rust VN -Facebook</a></li>
             {% endif %}
 					</ul>
 				{%- endif %}
@@ -81,7 +81,7 @@
 	<footer>
 		<footer id="footer">
 			<nav>
-				
+
 				<ul>
 					<li><span>Rust Wiki</span></li>
 					{% if config.extra.footer -%}

@@ -91,7 +91,7 @@ name = "Rust Official website"
 url = "https://www.rust-lang.org"
 
 [[extra.footer]]
-name = "Rust comminicate"
+name = "Rust communicate"
 url = "https://github.com/ByteBuffer2022"
 
 [[extra.footer]]

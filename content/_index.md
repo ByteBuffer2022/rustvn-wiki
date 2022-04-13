@@ -1,20 +1,20 @@
 +++
-title = "Rust Official Document VietNam tutorial"
-description = "Nhóm dự án dịch tài liệu chính thức của Rust cung cấp cơ sở kiến thức Rust bằng tiếng Việt toàn diện để học tài liệu chính thức về ngôn ngữ Rust và các hướng dẫn khác, từ giới thiệu đến học chuyên sâu về ngôn ngữ lập trình Rust. Các nguồn tài nguyên khác nhau được cung cấp bởi Nhóm dự án dịch Rust và những người có sở thích khác tham gia vào các dự án mã nguồn mở của Rust."
+title = "Tài liệu Lập Trình Rust"
+description = "Chúng tôi tạo ra trang web này mới mục đích phổ cập ngôn ngữ Rust cho mọi người. Thông qua các tài liệu Tiếng Việt, bạn có thể dễ dàng để hiểu ngôn ngữ này bằng tiếng mẹ đẻ. Chúng tôi trân trọng những đóng góp từ cộng đồng để tài liệu ngày một hoàn thiện."
 
 
 [extra]
 
 [extra.button]
-primary = "Rust programming language"
+primary = "Sách Ngôn ngữ Lập Trình Rust"
 primary_url = "https://www.rustvn.com/docs/book"
-primary_path = "docs/book"
+primary_path = "vi-VN/book"
 
-outline = "Learn by example Rust"
+outline = "Học qua ví dụ"
 outline_url = "https://www.rustvn.com/vi-VN/rust-by-example"
 outline_path = "vi-VN/rust-by-example"
 
-content = "👉 Rust The official two essential learning tutorials"
+content = "👉 2 tutorials để bắt đầu học Rust"
 
 # icon source：https://themify.me/themify-icons
 
