@@ -5,7 +5,7 @@ weight = 5
 
 template = "wiki/page.html"
 
-aliases = ["zh-CN/rust-wiki/rust-related/toml.html"]
+aliases = ["vi-VN/rust-wiki/rust-related/toml.html"]
 +++
 
 👉 TOML language is widely used in Rust projects, `cargo new` will create a new `toml` configuration file for a new project, so it is necessary to be familiar with the relevant syntax of TOML language in the process of learning Rust, so as to be proficient in editing in Rust projects configuration file.>

@@ -1,4 +1,4 @@
 +++
-title = "Rust 编译错误索引"
+title = "Rust compile error index"
 template = "i18/error-index.html"
 +++

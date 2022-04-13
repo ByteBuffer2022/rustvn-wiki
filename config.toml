@@ -3,7 +3,7 @@ base_url = "https://rustvn.com"
 
 # The basic information
 title = "Rust document"
-description = "Tài liệu Rust là một cơ sở kiến thức trực tuyến về tài liệu ngôn ngữ Rust do nhóm dự án dịch tiếng Việt tài liệu chính thức của Rust tạo ra. Mạng này bao gồm nội dung học tiếng Việt toàn diện nhất về ngôn ngữ Việt Quốc và tài liệu giới thiệu về lập trình, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust và Rust Thông số kỹ thuật và tiêu chuẩn dịch tiếng Việt Rust do nhóm dự án dịch thuật phát triển. "
+description = "Tài liệu Rust là một cơ sở kiến thức trực tuyến về tài liệu ngôn ngữ Rust do nhóm dự án dịch tiếng Việt tài liệu chính thức của Rust tạo ra. Mạng này bao gồm nội dung học tiếng Việt toàn diện nhất về ngôn ngữ Việt Quốc và tài liệu giới thiệu về lập trình, bao gồm bản dịch tiếng Việt của tài liệu chính thức hoặc không chính thức của Rust và Rust Thông số kỹ thuật và tiêu chuẩn dịch  Rust tiếng Việt do nhóm dự án dịch thuật phát triển. "
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -51,9 +51,6 @@ name = "Blog"
 path = "/blog/"
 
 
-[[extra.menu]]
-name = "Rust programming exchange"
-url = "https://github.com/ByteBuffer2022"
 
 [[extra.menu]]
 name = "GitHub"

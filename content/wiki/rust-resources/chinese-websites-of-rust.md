@@ -3,7 +3,7 @@ title = "Các trang web Việt Nam liên quan đến Rust"
 weight = 5
 template = "wiki/page.html"
 
-aliases = ["zh-CN/rust-wiki/rust-resources/Chinese-websites-of-rust.html"]
+aliases = ["vi-VN/rust-wiki/rust-resources/Vietnamese-websites-of-rust.html"]
 +++
 
 Sau đây liệt kê các trang web Rust của VN được thu thập cho đến nay:
