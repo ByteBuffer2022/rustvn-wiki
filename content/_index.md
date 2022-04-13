@@ -1,14 +1,14 @@
 +++
 title = "Rust Official Document VietNam tutorial"
-description = "The Rust Official Documentation Translation Project Team provides a comprehensive Vietnamese knowledge base for learning Rust language official documentation and other tutorials, from introductory to in-depth learning of the Rust programming language. Various resources are provided by the Rust Translation Project Team and other hobbies who participate in Rust open source projects. provided jointly."
+description = "Nhóm dự án dịch tài liệu chính thức của Rust cung cấp cơ sở kiến thức Rust bằng tiếng Việt toàn diện để học tài liệu chính thức về ngôn ngữ Rust và các hướng dẫn khác, từ giới thiệu đến học chuyên sâu về ngôn ngữ lập trình Rust. Các nguồn tài nguyên khác nhau được cung cấp bởi Nhóm dự án dịch Rust và những người có sở thích khác tham gia vào các dự án mã nguồn mở của Rust."
 
 
 [extra]
 
 [extra.button]
 primary = "Rust programming language"
-primary_url = "https://www.rustvn.com/vi-VN/book"
-primary_path = "vi-VN/book"
+primary_url = "https://www.rustvn.com/docs/book"
+primary_path = "docs/book"
 
 outline = "Learn by example Rust"
 outline_url = "https://www.rustvn.com/vi-VN/rust-by-example"
