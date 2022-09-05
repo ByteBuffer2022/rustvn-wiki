@@ -2,10 +2,13 @@ name:  Deploy rustvn.com
 on: 
   push:
     branches: [ master ]
+    pull_request:
+              [ master ]
 
 jobs:
-  name: Build image
-  runs-on: ubuntu-latest
+  build:
+    name: Build image
+    runs-on: ubuntu-latest
 
     steps: 
     - name: Checkout 
