@@ -44,3 +44,5 @@ dual licensed as above, without any additional terms or conditions.
 
 
 Test
+
+ # aws cloudfront create-invalidation --distribution-id <my distribution id> --paths "/*"
