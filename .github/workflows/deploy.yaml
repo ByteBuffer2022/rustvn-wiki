@@ -2,7 +2,6 @@ name: Rustvn.com deployer
 
 on:
   push:
-  push:
     branches: [ master ]
 
 jobs:
