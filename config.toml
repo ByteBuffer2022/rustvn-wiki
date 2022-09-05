@@ -1,6 +1,6 @@
 # The URL the site will be built for
 # base_url = "https://www.rustvn.com"
-base_url = "http://192.168.0.10:1111"
+base_url = "https://rustvn-wiki.s3.ap-southeast-1.amazonaws.com/"
 
 # The basic information
 title = "Rust document"
