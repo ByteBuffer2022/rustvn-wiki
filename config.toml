@@ -41,15 +41,15 @@ copy = "&copy; 2016-2022 rust-lang-vn"
 # Header menus
 [[extra.menu]]
 name = "Tài liệu hướng dẫn"
-path = "/docs/"
+path = "/docs/index.html"
 
 [[extra.menu]]
 name = "Wiki"
-path = "/wiki/"
+path = "/wiki/index.html"
 
 [[extra.menu]]
 name = "Blog"
-path = "/blog/"
+path = "/blog/index.html"
 
 
 
@@ -59,21 +59,21 @@ url = "https://github.com/ByteBuffer2022"
 
 [[extra.menu]]
 name = "FAQ"
-path = "/faq/"
+path = "/faq/index.html"
 
 [[extra.menu]]
 name = "About us"
-path = "/about/"
+path = "/about/index.html"
 
 
 # Footer
 [[extra.footer]]
 name = "Tutorial"
-path = "/docs/"
+path = "/docs/index.html"
 
 [[extra.footer]]
 name = "Wiki"
-path = "/wiki/"
+path = "/wiki/index.html"
 
 [[extra.footer]]
 name = "Official documentation"
@@ -81,11 +81,11 @@ path = "/vi-VN/"
 
 [[extra.footer]]
 name = "FAQ"
-path = "/faq/"
+path = "/faq/index.html"
 
 [[extra.footer]]
 name = "About us"
-path = "/about/"
+path = "/about/index.html"
 
 [[extra.footer]]
 name = "Rust Official website"
